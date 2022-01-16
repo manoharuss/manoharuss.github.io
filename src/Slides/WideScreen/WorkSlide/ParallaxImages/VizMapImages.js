@@ -8,25 +8,25 @@ import vizmap from '../../../../Assets/Images/Visualization/VizMap.png';
 
 const VizMap = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 15}%) scale(0.7)`,
+    transform: `translate(0px,-${(scroll) * 15}%) scale(0.9)`,
   }),
 })`
 transition: transform 0.2s ease-out;
 position: absolute;
 bottom: -90vh;
-left:-4vw;
+left:-6vw;
 /* border: 1px dashed red; */
 height: 80vh; 
 `;
 
 const VizInspect = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 5}%) scale(0.7)`,
+    transform: `translate(0px,-${(scroll) * 5}%) scale(0.9)`,
   }),
 })`
 transition: transform 0.2s ease-out;
 bottom:-75vh;
-left:3vw;
+left:0vw;
 position: absolute;
 /* border: 1px dashed red; */
 height: 80vh;

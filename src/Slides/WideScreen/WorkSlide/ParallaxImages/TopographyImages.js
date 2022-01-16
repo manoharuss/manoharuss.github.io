@@ -5,7 +5,7 @@ import topographyHomeImg from '../../../../Assets/Images/Topography/Mountain.png
 import topographyScoreImg from '../../../../Assets/Images/Topography/Score.png';
 
 
-const VoistrapPhoneHome = styled.img.attrs({
+const TopographyHome = styled.img.attrs({
   style: ({ scroll }) => ({
     transform: `translate(0px,-${(scroll) * 15}%)`,
   }),
@@ -18,9 +18,9 @@ left:0vw;
 height: 80vh; 
 `;
 
-const VoistrapPhoneScore = styled.img.attrs({
+const TopographyScore = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 5}%) scale(0.75)`,
+    transform: `translate(0px,-${(scroll) * 5}%) scale(0.85)`,
   }),
 })`
 transition: transform 0.2s ease-out;
@@ -43,8 +43,8 @@ class TopographyImages extends Component {
     scrollPercent -= scrollOffsetInPercent;
     return (
       <React.Fragment>
-        <VoistrapPhoneScore src={topographyScoreImg} scroll={scrollPercent} alt="topographyScore" />
-        <VoistrapPhoneHome src={topographyHomeImg} scroll={scrollPercent} alt="topographyHome" />
+        <TopographyScore src={topographyScoreImg} scroll={scrollPercent} alt="topographyScore" />
+        <TopographyHome src={topographyHomeImg} scroll={scrollPercent} alt="topographyHome" />
       </React.Fragment>
     );
   }

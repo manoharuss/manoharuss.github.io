@@ -13,19 +13,19 @@ const ClusterMap = styled.img.attrs({
 transition: transform 0.2s ease-out;
 position: absolute;
 bottom: -90vh;
-left:-1vw;
+left:-2vw;
 /* border: 1px dashed red; */
 height: 80vh; 
 `;
 
 const ClusterGrouping = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 5}%) scale(0.9)`,
+    transform: `translate(0px,-${(scroll) * 5}%) scale(0.95)`,
   }),
 })`
 transition: transform 0.2s ease-out;
 bottom:-75vh;
-left:6vw;
+left:4vw;
 position: absolute;
 /* border: 1px dashed red; */
 height: 80vh;

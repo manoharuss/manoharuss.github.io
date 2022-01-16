@@ -34397,8 +34397,8 @@ TextContent.propTypes = {
 };
 var _default = TextContent;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js","../../../Assets/Responsive/breakpoints":"Assets/Responsive/breakpoints.js"}],"Assets/Images/Topography/Mountain.jpg":[function(require,module,exports) {
-module.exports = "/Mountain.e01829eb.jpg";
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js","../../../Assets/Responsive/breakpoints":"Assets/Responsive/breakpoints.js"}],"Assets/Images/Topography/Mountain.png":[function(require,module,exports) {
+module.exports = "/Mountain.c1654e81.png";
 },{}],"Assets/Images/Topography/Score.png":[function(require,module,exports) {
 module.exports = "/Score.07263e13.png";
 },{}],"Slides/WideScreen/WorkSlide/ParallaxImages/TopographyImages.js":[function(require,module,exports) {
@@ -34415,7 +34415,7 @@ var _styledComponents = _interopRequireDefault(require("styled-components"));
 
 var _propTypes = _interopRequireDefault(require("prop-types"));
 
-var _Mountain = _interopRequireDefault(require("../../../../Assets/Images/Topography/Mountain.jpg"));
+var _Mountain = _interopRequireDefault(require("../../../../Assets/Images/Topography/Mountain.png"));
 
 var _Score = _interopRequireDefault(require("../../../../Assets/Images/Topography/Score.png"));
 
@@ -34451,7 +34451,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
-var VoistrapPhoneHome = _styledComponents.default.img.attrs({
+var TopographyHome = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
@@ -34460,11 +34460,11 @@ var VoistrapPhoneHome = _styledComponents.default.img.attrs({
   }
 })(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -90vh;\nleft:0vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
 
-var VoistrapPhoneScore = _styledComponents.default.img.attrs({
+var TopographyScore = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 5, "%) scale(0.75)")
+      transform: "translate(0px,-".concat(scroll * 5, "%) scale(0.85)")
     };
   }
 })(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-75vh;\nleft:2vw;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
@@ -34493,11 +34493,11 @@ var TopographyImages = /*#__PURE__*/function (_Component) {
       var scrollOffset = screenHeight * heighttoBeReducedinVH / 100;
       var scrollOffsetInPercent = scrollOffset * 100 / scrollHeight;
       scrollPercent -= scrollOffsetInPercent;
-      return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(VoistrapPhoneScore, {
+      return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(TopographyScore, {
         src: _Score.default,
         scroll: scrollPercent,
         alt: "topographyScore"
-      }), /*#__PURE__*/_react.default.createElement(VoistrapPhoneHome, {
+      }), /*#__PURE__*/_react.default.createElement(TopographyHome, {
         src: _Mountain.default,
         scroll: scrollPercent,
         alt: "topographyHome"
@@ -34517,7 +34517,7 @@ TopographyImages.propTypes = {
 };
 var _default = TopographyImages;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js","../../../../Assets/Images/Topography/Mountain.jpg":"Assets/Images/Topography/Mountain.jpg","../../../../Assets/Images/Topography/Score.png":"Assets/Images/Topography/Score.png"}],"Assets/Images/Roadicons/IconsMap.png":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js","../../../../Assets/Images/Topography/Mountain.png":"Assets/Images/Topography/Mountain.png","../../../../Assets/Images/Topography/Score.png":"Assets/Images/Topography/Score.png"}],"Assets/Images/Roadicons/IconsMap.png":[function(require,module,exports) {
 module.exports = "/IconsMap.1c269446.png";
 },{}],"Assets/Images/Roadicons/IconsInspect.png":[function(require,module,exports) {
 module.exports = "/IconsInspect.e1875d07.png";
@@ -34584,7 +34584,7 @@ var IconsInspect = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 5, "%) scale(0.7)")
+      transform: "translate(0px,-".concat(scroll * 5, "%) scale(0.8)")
     };
   }
 })(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-75vh;\nleft:2vw;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
@@ -34699,16 +34699,16 @@ var ClusterMap = _styledComponents.default.img.attrs({
       transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.9)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -90vh;\nleft:-1vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -90vh;\nleft:-2vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
 
 var ClusterGrouping = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 5, "%) scale(0.9)")
+      transform: "translate(0px,-".concat(scroll * 5, "%) scale(0.95)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-75vh;\nleft:6vw;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-75vh;\nleft:4vw;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
 
 var ClusteringImages = /*#__PURE__*/function (_Component) {
   _inherits(ClusteringImages, _Component);
@@ -34816,19 +34816,19 @@ var FlameGraph = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.85)")
+      transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.9)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -90vh;\nleft:-1vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -90vh;\nleft:-2vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
 
 var RunTime = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 5, "%) scale(0.55)")
+      transform: "translate(0px,-".concat(scroll * 5, "%) scale(0.6)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-75vh;\nleft:-7vw;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-75vh;\nleft:-10vw;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
 
 var ProfilingImages = /*#__PURE__*/function (_Component) {
   _inherits(ProfilingImages, _Component);
@@ -34936,19 +34936,19 @@ var OptimizedTile = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.9)")
+      transform: "translate(0px,-".concat(scroll * 15, "%)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -90vh;\nleft:1vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -90vh;\nleft:0vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
 
 var LegacyTile = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 5, "%) scale(0.8)")
+      transform: "translate(0px,-".concat(scroll * 5, "%) scale(0.9)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-75vh;\nleft:3vw;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-75vh;\nleft:1vw;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
 
 var TilesizeImages = /*#__PURE__*/function (_Component) {
   _inherits(TilesizeImages, _Component);
@@ -35056,19 +35056,19 @@ var VizMap = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.7)")
+      transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.9)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -90vh;\nleft:-4vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -90vh;\nleft:-6vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
 
 var VizInspect = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 5, "%) scale(0.7)")
+      transform: "translate(0px,-".concat(scroll * 5, "%) scale(0.9)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-75vh;\nleft:3vw;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-75vh;\nleft:0vw;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
 
 var VizMapImages = /*#__PURE__*/function (_Component) {
   _inherits(VizMapImages, _Component);
@@ -36477,7 +36477,7 @@ var _styledComponents = _interopRequireDefault(require("styled-components"));
 
 var _propTypes = _interopRequireDefault(require("prop-types"));
 
-var _Mountain = _interopRequireDefault(require("../../../../Assets/Images/Topography/Mountain.jpg"));
+var _Mountain = _interopRequireDefault(require("../../../../Assets/Images/Topography/Mountain.png"));
 
 var _Score = _interopRequireDefault(require("../../../../Assets/Images/Topography/Score.png"));
 
@@ -36517,19 +36517,19 @@ var TopographyHome = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.7)")
+      transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.6)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -170vh;\ntransform-origin: left center;\nleft:2vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -170vh;\ntransform-origin: left center;\nleft:0vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
 
 var TopographyScore = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 15, "%) scale(1)")
+      transform: "translate(0px,-".concat(scroll * 3.5, "%) scale(0.4)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -170vh;\ntransform-origin: left center;\nleft:2vw;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\nleft:10vw;\ntransform-origin: left center;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
 
 var TopographyImages = /*#__PURE__*/function (_Component) {
   _inherits(TopographyImages, _Component);
@@ -36553,8 +36553,7 @@ var TopographyImages = /*#__PURE__*/function (_Component) {
           screenHeight = _this$props.screenHeight;
       var heighttoBeReducedinVH = boxHeight * index - 100;
       var scrollOffset = screenHeight * heighttoBeReducedinVH / 100;
-      var scrollOffsetInPercent = scrollOffset * 100 / scrollHeight;
-      console.log('scrollPercent ', scrollPercent);
+      var scrollOffsetInPercent = scrollOffset * 100 / scrollHeight + index - 1;
       scrollPercent -= scrollOffsetInPercent;
       return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(TopographyScore, {
         src: _Score.default,
@@ -36580,7 +36579,7 @@ TopographyImages.propTypes = {
 };
 var _default = TopographyImages;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js","../../../../Assets/Images/Topography/Mountain.jpg":"Assets/Images/Topography/Mountain.jpg","../../../../Assets/Images/Topography/Score.png":"Assets/Images/Topography/Score.png"}],"Slides/Mobile/WorkSlide/ParallaxImages/RoadIconsImages.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js","../../../../Assets/Images/Topography/Mountain.png":"Assets/Images/Topography/Mountain.png","../../../../Assets/Images/Topography/Score.png":"Assets/Images/Topography/Score.png"}],"Slides/Mobile/WorkSlide/ParallaxImages/RoadIconsImages.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -36634,16 +36633,16 @@ var IconsMap = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.7)")
+      transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.6)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -170vh;\ntransform-origin: left center;\nleft:2vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -170vh;\ntransform-origin: left center;\nleft:0vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
 
 var IconsInspect = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 3.5, "%) scale(0.5)")
+      transform: "translate(0px,-".concat(scroll * 3.5, "%) scale(0.4)")
     };
   }
 })(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\nleft:10vw;\ntransform-origin: left center;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
@@ -36670,14 +36669,8 @@ var RoadIconsImages = /*#__PURE__*/function (_Component) {
           screenHeight = _this$props.screenHeight;
       var heighttoBeReducedinVH = boxHeight * index - 100;
       var scrollOffset = screenHeight * heighttoBeReducedinVH / 100;
-      var scrollOffsetInPercent = scrollOffset * 100 / scrollHeight + index - 1; // console.log('WMF scrollOffsetPercent ', scrollOffsetInPercent);
-
+      var scrollOffsetInPercent = scrollOffset * 100 / scrollHeight + index - 1;
       scrollPercent -= scrollOffsetInPercent;
-
-      if (scrollPercent > 0 && scrollPercent < 0.1) {
-        console.log('WMF');
-      }
-
       return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(IconsInspect, {
         src: _IconsInspect.default,
         scroll: scrollPercent,
@@ -36756,19 +36749,19 @@ var ClusterMap = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 22, "%) scale(0.65)")
+      transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.6)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -320vh;\ntransform-origin: left center;\nleft:2vw;\n/* border: 1px dashed red; */\nheight: 100vh; \n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -170vh;\ntransform-origin: left center;\nleft:0vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
 
 var ClusterGrouping = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 6, "%) scale(0.65)")
+      transform: "translate(0px,-".concat(scroll * 3.5, "%) scale(0.4)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -180vh;\ntransform-origin: right center;\nright:2vw;\n/* border: 1px dashed red; */\nheight: 100vh; \n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\nleft:10vw;\ntransform-origin: left center;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
 
 var ClusteringImages = /*#__PURE__*/function (_Component) {
   _inherits(ClusteringImages, _Component);
@@ -36872,19 +36865,19 @@ var FlameGraph = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.7)")
+      transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.6)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -170vh;\ntransform-origin: left center;\nleft:2vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -170vh;\ntransform-origin: left center;\nleft:0vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
 
 var RunTime = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 3.5, "%) scale(0.5)")
+      transform: "translate(0px,-".concat(scroll * 3.5, "%) scale(0.4)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\nleft:10vw;\ntransform-origin: left center;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\nfilter: blur(0.8px);\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\nleft:10vw;\ntransform-origin: left center;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
 
 var ProfilingImages = /*#__PURE__*/function (_Component) {
   _inherits(ProfilingImages, _Component);
@@ -36988,19 +36981,19 @@ var OptimizedTile = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 13, "%) scale(0.8)")
+      transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.6)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom:-220vh;\nleft: 2vw;\ntransform-origin: left center;\n/* border: 1px dashed red; */\nheight: 70vh;\n\n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -170vh;\ntransform-origin: left center;\nleft:0vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
 
 var LegacyTile = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 9, "%) scale(0.6)")
+      transform: "translate(0px,-".concat(scroll * 3.5, "%) scale(0.4)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -210vh;\nright: 3vw;\ntransform-origin: right center;\n/* border: 1px dashed red; */\nfilter: blur(0.6px);\nheight: 70vh; \n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\nleft:10vw;\ntransform-origin: left center;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
 
 var TilesizeImages = /*#__PURE__*/function (_Component) {
   _inherits(TilesizeImages, _Component);
@@ -37111,19 +37104,19 @@ var VizInspect = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 25, "%) scale(0.9)")
+      transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.6)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\nposition: absolute;\nbottom:-210vh;\nright: 2vw;\ntransform-origin: right center;\n/* border: 1px dashed red; */\nwidth: 80vw;\n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -170vh;\ntransform-origin: left center;\nleft:0vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
 
 var VizMap = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 13, "%) scale(0.8)")
+      transform: "translate(0px,-".concat(scroll * 3.5, "%) scale(0.4)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\nbottom:-160vh;\nleft:2vw;\ntransform-origin: left center;\nposition: absolute;\n/* border: 1px dashed red; */\nwidth: 80vw;\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\nleft:10vw;\ntransform-origin: left center;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
 
 var VizMapImages = /*#__PURE__*/function (_Component) {
   _inherits(VizMapImages, _Component);
@@ -38005,7 +37998,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55051" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56083" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
