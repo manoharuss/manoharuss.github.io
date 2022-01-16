@@ -45,8 +45,8 @@ class ClusteringImages extends Component {
     scrollPercent -= scrollOffsetInPercent;
     return (
       <React.Fragment>
-        <ClusterMap src={clusterMapImg} scroll={scrollPercent} alt="clusterGrouping" />
         <ClusterGrouping src={clusterGroupingImg} scroll={scrollPercent} alt="clusterMap" />
+        <ClusterMap src={clusterMapImg} scroll={scrollPercent} alt="clusterGrouping" />
       </React.Fragment>
     );
   }

@@ -46,8 +46,8 @@ class VizMapImages extends Component {
     scrollPercent -= scrollOffsetInPercent;
     return (
       <React.Fragment>
-        <VizMap src={vizmap} scroll={scrollPercent} alt="vizmap" />
         <VizInspect src={vizinspect} scroll={scrollPercent} alt="vizinspect" />
+        <VizMap src={vizmap} scroll={scrollPercent} alt="vizmap" />
       </React.Fragment>
     );
   }
