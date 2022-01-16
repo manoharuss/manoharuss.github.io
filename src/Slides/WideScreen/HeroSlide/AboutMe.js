@@ -18,7 +18,7 @@ const AboutMeTitle = styled.div.attrs({
   transition: transform 0.5s ease-out;
   font-family: 'AvenirHeavy';
   position: absolute;
-  color: #EEE;
+  color: #f8f8f8;
   top:5%;
   left:-15%;
   @media ${device.laptop} {
@@ -40,15 +40,15 @@ const AboutMeDescription = styled.div`
   margin-right: 5%;
   @media ${device.laptop} {
     transform: translateY(90%);
-    font-size: 30px;
+    font-size: 20px;
   }
   @media ${device.laptopL} {
     transform: translateY(87%);
-    font-size: 38px;
+    font-size: 28px;
   }
   @media ${device.desktop} {
     transform: translateY(80%);
-    font-size: 70px;
+    font-size: 50px;
   }
 `;
 
@@ -85,8 +85,8 @@ class AboutMe extends Component {
       <Container>
         <AboutMeTitle scrollPercent={scrollPercent}>ABOUT ME</AboutMeTitle>
         <AboutMeDescription>
-        Front-end developer who cares deeply about user experience.
-        Serious passion for UI design and new technologies.
+        A back-end developer who cares deeply about robust system architecture and uptime.
+        Passion for Geospatial applications. Aim to succeed at map making for social good.
         </AboutMeDescription>
       </Container>
     );
