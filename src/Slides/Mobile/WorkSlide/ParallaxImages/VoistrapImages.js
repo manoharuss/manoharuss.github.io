@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import voistrapHomeImg from '../../../../Assets/Images/Voistrap/Home.png';
+import voistrapHomeImg from '../../../../Assets/Images/Voistrap/Home.jpg';
 import voistrapMeetingsImg from '../../../../Assets/Images/Voistrap/Meetings.png';
 import voistrapPeopleImg from '../../../../Assets/Images/Voistrap/People.png';
 import voistrapScoreImg from '../../../../Assets/Images/Voistrap/Score.png';
@@ -33,22 +33,20 @@ right: 2vw;
 transform-origin: right center;
 /* border: 1px dashed red; */
 height: 80vh;
-filter: blur(0.6px);
 `;
 
 const VoistrapPhoneScore = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 3.5}%) scale(0.5)`,
+    transform: `translate(0px,-${(scroll) * 15}%) scale(1)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-110vh;
-left:10vw;
-transform-origin: left center;
 position: absolute;
+bottom: -170vh;
+transform-origin: left center;
+left:2vw;
 /* border: 1px dashed red; */
-height: 80vh;
-filter: blur(0.8px);
+height: 80vh; 
 `;
 
 const VoistrapPhonePeople = styled.img.attrs({
@@ -63,7 +61,6 @@ transform-origin: right center;
 position: absolute;
 /* border: 1px dashed red; */
 height: 80vh;
-filter: blur(1.2px);
 `;
 
 class VoistrapImages extends Component {

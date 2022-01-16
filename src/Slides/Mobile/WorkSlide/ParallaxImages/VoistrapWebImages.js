@@ -32,7 +32,6 @@ right: 2vw;
 transform-origin: right center;
 /* border: 1px dashed red; */
 width: 80vw;
-filter: blur(0.2px);
 `;
 
 const BigBubble = styled.img.attrs({
@@ -46,7 +45,6 @@ transform-origin: left center;
 position: absolute;
 /* border: 1px dashed red; */
 width: 80vw;
-filter: blur(0.5px);
 `;
 
 const Paths = styled.img.attrs({
@@ -60,7 +58,6 @@ transform-origin: right center;
 position: absolute;
 /* border: 1px dashed red; */
 width: 80vw;
-filter: blur(0.8px);
 `;
 
 class VoistrapWebImages extends Component {

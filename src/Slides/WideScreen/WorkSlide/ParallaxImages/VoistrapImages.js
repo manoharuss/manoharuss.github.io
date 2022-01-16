@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import voistrapHomeImg from '../../../../Assets/Images/Voistrap/Home.png';
-import voistrapMeetingsImg from '../../../../Assets/Images/Voistrap/Meetings.png';
-import voistrapPeopleImg from '../../../../Assets/Images/Voistrap/People.png';
+import voistrapHomeImg from '../../../../Assets/Images/Voistrap/Home.jpg';
 import voistrapScoreImg from '../../../../Assets/Images/Voistrap/Score.png';
 
 
@@ -20,20 +18,6 @@ left:0vw;
 height: 80vh; 
 `;
 
-const VoistrapPhoneMeetings = styled.img.attrs({
-  style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 8}%) scale(0.9)`,
-  }),
-})`
-transition: transform 0.2s ease-out;
-position: absolute;
-bottom:-45vh;
-right: 2vw;
-/* border: 1px dashed red; */
-height: 80vh;
-filter: blur(0.6px);
-`;
-
 const VoistrapPhoneScore = styled.img.attrs({
   style: ({ scroll }) => ({
     transform: `translate(0px,-${(scroll) * 5}%) scale(0.7)`,
@@ -45,21 +29,6 @@ left:2vw;
 position: absolute;
 /* border: 1px dashed red; */
 height: 80vh;
-filter: blur(0.8px);
-`;
-
-const VoistrapPhonePeople = styled.img.attrs({
-  style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 2}%) scale(0.6)`,
-  }),
-})`
-transition: transform 0.2s ease-out;
-bottom:-55vh;
-right: 5vw;
-position: absolute;
-/* border: 1px dashed red; */
-height: 80vh;
-filter: blur(1.2px);
 `;
 
 class VoistrapImages extends Component {
@@ -74,9 +43,7 @@ class VoistrapImages extends Component {
     scrollPercent -= scrollOffsetInPercent;
     return (
       <React.Fragment>
-        <VoistrapPhonePeople src={voistrapPeopleImg} scroll={scrollPercent} alt="voistrapPeople" />
         <VoistrapPhoneScore src={voistrapScoreImg} scroll={scrollPercent} alt="voistrapScore" />
-        <VoistrapPhoneMeetings src={voistrapMeetingsImg} scroll={scrollPercent} alt="voistrapMeetings" />
         <VoistrapPhoneHome src={voistrapHomeImg} scroll={scrollPercent} alt="voistrapHome" />
       </React.Fragment>
     );

@@ -30,10 +30,10 @@ class Work extends Component {
       },
       {
         number: '01',
-        projectName: 'Voistrap',
-        projectDesc: 'IoT project to give workplace insights using indoor localization, voice and schedule.',
-        projectType: 'iOS APP',
-        roles: ['Full Stack Developer', 'UI Designer'],
+        projectName: 'Topographic Prominence',
+        projectDesc: 'Mountains on the Mapbox global map are tiled based on elevation and distance from one another.',
+        projectType: 'PySpark',
+        roles: ['Map data engineer', 'Cartography'],
       },
       {
         number: '02',

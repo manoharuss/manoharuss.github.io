@@ -31,7 +31,6 @@ right: 0vw;
 transform-origin: right center;
 /* border: 1px dashed red; */
 height: 50vh;
-filter: blur(0.6px);
 `;
 
 const BigBubble = styled.img.attrs({
@@ -44,12 +43,11 @@ left:-4vw;
 position: absolute;
 /* border: 1px dashed red; */
 height: 50vh;
-filter: blur(0.8px);
 `;
 
 const Paths = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 3}%) scale(0.6)`,
+    transform: `translate(0px,-${(scroll) * 3}%) scale(0.9)`,
   }),
 })`
 bottom:-80vh;
@@ -58,7 +56,6 @@ transform-origin: right center;
 position: absolute;
 /* border: 1px dashed red; */
 height: 50vh;
-filter: blur(1.2px);
 `;
 
 class VoistrapWebImages extends Component {
