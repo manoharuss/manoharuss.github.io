@@ -66,7 +66,7 @@ class Work extends Component {
       {
         number: '06',
         projectName: 'Data Visualizations',
-        projectDesc: 'Map of OpenStreetMap changesets my team reviewed in a year and incorrect we edits found.',
+        projectDesc: 'Map of OpenStreetMap changesets my team reviewed in a year and the incorrect edits we found.',
         projectType: 'WEB APP',
         roles: ['Full Stack Developer'],
       },
