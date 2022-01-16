@@ -3,48 +3,33 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import englishHome from '../../../../Assets/Images/Kosen/EnglishHome.png';
 import jpnHome from '../../../../Assets/Images/Kosen/JpnHome.png';
-import player from '../../../../Assets/Images/Kosen/Player.png';
 
-const JapaneseTab = styled.img.attrs({
-  style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 15}%)`,
-  }),
-})`
-transition: transform 0.2s ease-out;
-position: absolute;
-bottom:-140vh;
-left: 0vw;
-/* border: 1px dashed red; */
-height: 80vh;
 
-`;
 
 const EnglishTab = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 8}%) scale(0.9)`,
+    transform: `translate(0px,-${(scroll) * 15}%) scale(0.9)`,
   }),
 })`
 transition: transform 0.2s ease-out;
 position: absolute;
-bottom: -120vh;
-right:0.5vw;
+bottom: -90vh;
+left:0vw;
 /* border: 1px dashed red; */
-filter: blur(0.6px);
 height: 80vh; 
 `;
 
-const PlayerTab = styled.img.attrs({
+const JapaneseTab = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 2}%) scale(0.6)`,
+    transform: `translate(0px,-${(scroll) * 5}%) scale(0.8)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-65vh;
-left: 1vw;
+bottom:-75vh;
+left:3vw;
 position: absolute;
 /* border: 1px dashed red; */
 height: 80vh;
-filter: blur(1px);
 `;
 
 class KosenImages extends Component {
@@ -55,11 +40,10 @@ class KosenImages extends Component {
     } = this.props;
     const heighttoBeReducedinVH = ((boxHeight * index) - 100);
     const scrollOffset = (screenHeight * heighttoBeReducedinVH) / 100;
-    const scrollOffsetInPercent = (scrollOffset * 100 / scrollHeight);
+    const scrollOffsetInPercent = (scrollOffset * 100 / scrollHeight) + index - 1;
     scrollPercent -= scrollOffsetInPercent;
     return (
       <React.Fragment>
-        <PlayerTab src={player} scroll={scrollPercent} alt="kosenPlayer" />
         <EnglishTab src={englishHome} scroll={scrollPercent} alt="kosenEnglish" />
         <JapaneseTab src={jpnHome} scroll={scrollPercent} alt="kosenJapanese" />
       </React.Fragment>

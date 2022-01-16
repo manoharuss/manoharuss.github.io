@@ -20,12 +20,12 @@ height: 80vh;
 
 const Tablet = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 5}%) scale(0.8)`,
+    transform: `translate(0px,-${(scroll) * 5}%) scale(0.9)`,
   }),
 })`
 transition: transform 0.2s ease-out;
 bottom:-75vh;
-left:2vw;
+left:6vw;
 position: absolute;
 /* border: 1px dashed red; */
 height: 80vh;
@@ -39,7 +39,7 @@ class ComingOrNotImages extends Component {
     } = this.props;
     const heighttoBeReducedinVH = ((boxHeight * index) - 100);
     const scrollOffset = (screenHeight * heighttoBeReducedinVH) / 100;
-    const scrollOffsetInPercent = (scrollOffset * 100 / scrollHeight);
+    const scrollOffsetInPercent = (scrollOffset * 100 / scrollHeight) + index - 1;
     scrollPercent -= scrollOffsetInPercent;
     return (
       <React.Fragment>
