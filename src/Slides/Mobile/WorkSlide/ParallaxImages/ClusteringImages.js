@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import cmgOrNotTabletImg from '../../../../Assets/Images/ComingOrNot/Tablet.png';
-import cmgOrNotIphoneImg from '../../../../Assets/Images/ComingOrNot/Iphone.png';
+import clusterGroupingImg from '../../../../Assets/Images/Clustering/ClusterGrouping.png';
+import clusterMapImg from '../../../../Assets/Images/Clustering/ClusterMap.png';
 
 
-const Iphone = styled.img.attrs({
+const ClusterMap = styled.img.attrs({
   style: ({ scroll }) => ({
     transform: `translate(0px,-${(scroll) * 22}%) scale(0.65)`,
   }),
@@ -19,7 +19,7 @@ left:2vw;
 height: 100vh; 
 `;
 
-const Tablet = styled.img.attrs({
+const ClusterGrouping = styled.img.attrs({
   style: ({ scroll }) => ({
     transform: `translate(0px,-${(scroll) * 6}%) scale(0.65)`,
   }),
@@ -33,7 +33,7 @@ right:2vw;
 height: 100vh; 
 `;
 
-class ComingOrNotImages extends Component {
+class ClusteringImages extends Component {
   render() {
     let { scrollPercent } = this.props;
     const {
@@ -46,14 +46,14 @@ class ComingOrNotImages extends Component {
 
     return (
       <React.Fragment>
-        <Tablet src={cmgOrNotTabletImg} scroll={scrollPercent} alt="cmgOrNotTablet" />
-        <Iphone src={cmgOrNotIphoneImg} scroll={scrollPercent} alt="cmgOrNotIphone" />
+        <ClusterGrouping src={clusterGroupingImg} scroll={scrollPercent} alt="clusterGrouping" />
+        <ClusterMap src={clusterMapImg} scroll={scrollPercent} alt="clusterMap" />
       </React.Fragment>
     );
   }
 }
 
-ComingOrNotImages.propTypes = {
+ClusteringImages.propTypes = {
   boxHeight: PropTypes.number.isRequired,
   index: PropTypes.number.isRequired,
   screenHeight: PropTypes.number.isRequired,
@@ -61,4 +61,4 @@ ComingOrNotImages.propTypes = {
   scrollPercent: PropTypes.number.isRequired,
 };
 
-export default ComingOrNotImages;
+export default ClusteringImages;

@@ -3,8 +3,8 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import vhCheck from 'vh-check';
 import TopographyImages from './ParallaxImages/TopographyImages';
-import WhatsMyFoodImages from './ParallaxImages/WhatsMyFoodImages';
-import ComingOrNotImages from './ParallaxImages/ComingOrNotImages';
+import RoadIconsImages from './ParallaxImages/RoadIconsImages';
+import ClusteringImages from './ParallaxImages/ClusteringImages';
 import ProfilingImages from './ParallaxImages/ProfilingImages';
 import TilesizeImages from './ParallaxImages/TilesizeImages';
 import VizMapImages from './ParallaxImages/VizMapImages';
@@ -76,7 +76,7 @@ class ImageContent extends Component {
           />
         </ImageBox>
         <ImageBox height={boxHeight}>
-          <WhatsMyFoodImages
+          <RoadIconsImages
             boxHeight={boxHeight}
             index={2}
             scrollPercent={scrollPercent}
@@ -85,7 +85,7 @@ class ImageContent extends Component {
           />
         </ImageBox>
         <ImageBox height={boxHeight}>
-          <ComingOrNotImages
+          <ClusteringImages
             boxHeight={boxHeight}
             index={3}
             scrollPercent={scrollPercent}
