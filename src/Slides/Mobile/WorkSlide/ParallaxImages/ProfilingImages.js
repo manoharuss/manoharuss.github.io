@@ -21,7 +21,7 @@ height: 80vh;
 
 const RunTime = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 4}%) scale(0.4)`,
+    transform: `translate(0px,-${(scroll) * 4}%) scale(0.35)`,
   }),
 })`
 transition: transform 0.2s ease-out;

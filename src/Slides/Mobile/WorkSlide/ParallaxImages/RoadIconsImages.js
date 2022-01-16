@@ -20,7 +20,7 @@ height: 80vh;
 
 const IconsInspect = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 3.5}%) scale(0.5)`,
+    transform: `translate(0px,-${(scroll) * 3.75}%) scale(0.5)`,
   }),
 })`
 transition: transform 0.2s ease-out;
