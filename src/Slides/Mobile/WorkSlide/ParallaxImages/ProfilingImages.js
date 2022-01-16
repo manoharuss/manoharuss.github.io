@@ -14,14 +14,14 @@ transition: transform 0.2s ease-out;
 position: absolute;
 bottom: -170vh;
 transform-origin: left;
-left: 4vw;
+left: 6vw;
 /* border: 1px dashed red; */
 height: 80vh; 
 `;
 
 const RunTime = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 4}%) scale(0.35)`,
+    transform: `translate(0px,-${(scroll) * 4}%) scale(0.4)`,
   }),
 })`
 transition: transform 0.2s ease-out;
