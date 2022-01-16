@@ -32,7 +32,6 @@ right: 2vw;
 transform-origin: right center;
 /* border: 1px dashed red; */
 height: 80vh;
-filter: blur(0.6px);
 `;
 
 const AddFood = styled.img.attrs({
