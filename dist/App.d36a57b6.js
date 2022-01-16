@@ -34458,16 +34458,16 @@ var TopographyHome = _styledComponents.default.img.attrs({
       transform: "translate(0px,-".concat(scroll * 15, "%)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -90vh;\nleft:0vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -90vh;\ntransform-origin: right center;\nright:5vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
 
 var TopographyScore = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 5, "%) scale(0.85)")
+      transform: "translate(0px,-".concat(scroll * 4, "%) scale(0.85)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-75vh;\nleft:2vw;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-75vh;\ntransform-origin: right center;\nright:9vw;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
 
 var TopographyImages = /*#__PURE__*/function (_Component) {
   _inherits(TopographyImages, _Component);
@@ -34578,16 +34578,16 @@ var IconsMap = _styledComponents.default.img.attrs({
       transform: "translate(0px,-".concat(scroll * 15, "%)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -90vh;\nleft:0vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -90vh;\ntransform-origin: right center;\nright:7vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
 
 var IconsInspect = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 5, "%) scale(0.8)")
+      transform: "translate(0px,-".concat(scroll * 4, "%) scale(0.9)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-75vh;\nleft:2vw;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-75vh;\ntransform-origin: right center;\nright:10vw;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
 
 var RoadIconsImages = /*#__PURE__*/function (_Component) {
   _inherits(RoadIconsImages, _Component);
@@ -34696,19 +34696,19 @@ var ClusterMap = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.9)")
+      transform: "translate(0px,-".concat(scroll * 15, "%)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -90vh;\nleft:-2vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -90vh;\ntransform-origin: right center;\nright:4vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
 
 var ClusterGrouping = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 5, "%) scale(0.95)")
+      transform: "translate(0px,-".concat(scroll * 3.5, "%)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-75vh;\nleft:4vw;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-75vh;\ntransform-origin: right center;\nright:8vw;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
 
 var ClusteringImages = /*#__PURE__*/function (_Component) {
   _inherits(ClusteringImages, _Component);
@@ -34816,19 +34816,19 @@ var FlameGraph = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.9)")
+      transform: "translate(0px,-".concat(scroll * 15, "%)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -90vh;\nleft:-2vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -90vh;\ntransform-origin: right center;\nright:4vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
 
 var RunTime = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 5, "%) scale(0.6)")
+      transform: "translate(0px,-".concat(scroll * 4, "%) scale(0.7)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-75vh;\nleft:-10vw;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-75vh;\ntransform-origin: right center;\nright:6vw;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
 
 var ProfilingImages = /*#__PURE__*/function (_Component) {
   _inherits(ProfilingImages, _Component);
@@ -34939,16 +34939,16 @@ var OptimizedTile = _styledComponents.default.img.attrs({
       transform: "translate(0px,-".concat(scroll * 15, "%)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -90vh;\nleft:0vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -90vh;\ntransform-origin: right center;\nright:8vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
 
 var LegacyTile = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 5, "%) scale(0.9)")
+      transform: "translate(0px,-".concat(scroll * 3.75, "%) scale(0.9)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-75vh;\nleft:1vw;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-75vh;\ntransform-origin: right center;\nright:10vw;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
 
 var TilesizeImages = /*#__PURE__*/function (_Component) {
   _inherits(TilesizeImages, _Component);
@@ -35059,16 +35059,16 @@ var VizMap = _styledComponents.default.img.attrs({
       transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.9)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -90vh;\nleft:-6vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -90vh;\ntransform-origin: right center;\nright:4vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
 
 var VizInspect = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 5, "%) scale(0.9)")
+      transform: "translate(0px,-".concat(scroll * 4, "%) scale(0.9)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-75vh;\nleft:0vw;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-75vh;\ntransform-origin: right center;\nright:8vw;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
 
 var VizMapImages = /*#__PURE__*/function (_Component) {
   _inherits(VizMapImages, _Component);
@@ -35410,7 +35410,7 @@ var Work = /*#__PURE__*/function (_Component) {
     }, {
       number: '06',
       projectName: 'Data Visualizations',
-      projectDesc: 'Map of OpenStreetMap changesets my team reviewed in a year and incorrect we edits found.',
+      projectDesc: 'Map of OpenStreetMap changesets my team reviewed in a year and the incorrect edits we found.',
       projectType: 'WEB APP',
       roles: ['Full Stack Developer']
     }, {
@@ -36517,19 +36517,19 @@ var TopographyHome = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.6)")
+      transform: "translate(0px,-".concat(scroll * 15, "%)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -170vh;\ntransform-origin: left center;\nleft:0vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -170vh;\ntransform-origin: center;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
 
 var TopographyScore = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 3.5, "%) scale(0.4)")
+      transform: "translate(0px,-".concat(scroll * 3.5, "%) scale(0.8)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\nleft:10vw;\ntransform-origin: left center;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\ntransform-origin: center;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
 
 var TopographyImages = /*#__PURE__*/function (_Component) {
   _inherits(TopographyImages, _Component);
@@ -36633,19 +36633,19 @@ var IconsMap = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.6)")
+      transform: "translate(0px,-".concat(scroll * 15, "%)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -170vh;\ntransform-origin: left center;\nleft:0vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -170vh;\ntransform-origin: center;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
 
 var IconsInspect = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 3.5, "%) scale(0.4)")
+      transform: "translate(0px,-".concat(scroll * 3.5, "%) scale(0.8)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\nleft:10vw;\ntransform-origin: left center;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\ntransform-origin: center;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
 
 var RoadIconsImages = /*#__PURE__*/function (_Component) {
   _inherits(RoadIconsImages, _Component);
@@ -36749,19 +36749,19 @@ var ClusterMap = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.6)")
+      transform: "translate(0px,-".concat(scroll * 15, "%)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -170vh;\ntransform-origin: left center;\nleft:0vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -170vh;\ntransform-origin: center;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
 
 var ClusterGrouping = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 3.5, "%) scale(0.4)")
+      transform: "translate(0px,-".concat(scroll * 3.5, "%)scale(0.8)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\nleft:10vw;\ntransform-origin: left center;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\ntransform-origin: center;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
 
 var ClusteringImages = /*#__PURE__*/function (_Component) {
   _inherits(ClusteringImages, _Component);
@@ -36865,19 +36865,19 @@ var FlameGraph = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.6)")
+      transform: "translate(0px,-".concat(scroll * 15, "%)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -170vh;\ntransform-origin: left center;\nleft:0vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -170vh;\ntransform-origin: center;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
 
 var RunTime = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 3.5, "%) scale(0.4)")
+      transform: "translate(0px,-".concat(scroll * 3.5, "%) scale(0.8)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\nleft:10vw;\ntransform-origin: left center;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\ntransform-origin: center;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
 
 var ProfilingImages = /*#__PURE__*/function (_Component) {
   _inherits(ProfilingImages, _Component);
@@ -36981,19 +36981,19 @@ var OptimizedTile = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.6)")
+      transform: "translate(0px,-".concat(scroll * 15, "%)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -170vh;\ntransform-origin: left center;\nleft:0vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -170vh;\ntransform-origin: center;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
 
 var LegacyTile = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 3.5, "%) scale(0.4)")
+      transform: "translate(0px,-".concat(scroll * 3.5, "%) scale(0.8)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\nleft:10vw;\ntransform-origin: left center;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\ntransform-origin: center;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
 
 var TilesizeImages = /*#__PURE__*/function (_Component) {
   _inherits(TilesizeImages, _Component);
@@ -37100,23 +37100,23 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
-var VizInspect = _styledComponents.default.img.attrs({
+var VizMap = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.6)")
+      transform: "translate(0px,-".concat(scroll * 15, "%)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -170vh;\ntransform-origin: left center;\nleft:0vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -170vh;\ntransform-origin: center;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
 
-var VizMap = _styledComponents.default.img.attrs({
+var VizInspect = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 3.5, "%) scale(0.4)")
+      transform: "translate(0px,-".concat(scroll * 3.5, "%) scale(0.8)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\nleft:10vw;\ntransform-origin: left center;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\ntransform-origin: center;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
 
 var VizMapImages = /*#__PURE__*/function (_Component) {
   _inherits(VizMapImages, _Component);
@@ -37463,7 +37463,7 @@ var Work = /*#__PURE__*/function (_Component) {
     }, {
       number: '06',
       projectName: 'Data Visualizations',
-      projectDesc: 'Map of OpenStreetMap changesets my team reviewed in a year and incorrect we edits found.',
+      projectDesc: 'Map of OpenStreetMap changesets my team reviewed in a year and the incorrect edits we found.',
       projectType: 'WEB APP',
       roles: ['Full Stack Developer']
     }, {
@@ -37998,7 +37998,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56083" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58939" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

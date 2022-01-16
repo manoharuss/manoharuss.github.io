@@ -12,19 +12,21 @@ const IconsMap = styled.img.attrs({
 transition: transform 0.2s ease-out;
 position: absolute;
 bottom: -90vh;
-left:0vw;
+transform-origin: right center;
+right:7vw;
 /* border: 1px dashed red; */
 height: 80vh; 
 `;
 
 const IconsInspect = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 5}%) scale(0.8)`,
+    transform: `translate(0px,-${(scroll) * 4}%) scale(0.9)`,
   }),
 })`
 transition: transform 0.2s ease-out;
 bottom:-75vh;
-left:2vw;
+transform-origin: right center;
+right:10vw;
 position: absolute;
 /* border: 1px dashed red; */
 height: 80vh;

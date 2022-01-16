@@ -7,27 +7,25 @@ import clusterMapImg from '../../../../Assets/Images/Clustering/ClusterMap.png';
 
 const ClusterMap = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 15}%) scale(0.5)`,
+    transform: `translate(0px,-${(scroll) * 15}%)`,
   }),
 })`
 transition: transform 0.2s ease-out;
 position: absolute;
 bottom: -170vh;
-transform-origin: right center;
-right:0vw;
+transform-origin: center;
 /* border: 1px dashed red; */
 height: 80vh; 
 `;
 
 const ClusterGrouping = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 3.5}%) scale(0.6)`,
+    transform: `translate(0px,-${(scroll) * 3.5}%)scale(0.8)`,
   }),
 })`
 transition: transform 0.2s ease-out;
 bottom:-110vh;
-transform-origin: right center;
-right:0vw;
+transform-origin: center;
 position: absolute;
 /* border: 1px dashed red; */
 height: 80vh;
