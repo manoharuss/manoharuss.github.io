@@ -8,14 +8,14 @@ import topographyScoreImg from '../../../../Assets/Images/Topography/Score.png';
 
 const TopographyHome = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 15}%) scale(0.7)`,
+    transform: `translate(0px,-${(scroll) * 15}%) scale(0.6)`,
   }),
 })`
 transition: transform 0.2s ease-out;
 position: absolute;
 bottom: -170vh;
 transform-origin: left center;
-left:2vw;
+left:0vw;
 /* border: 1px dashed red; */
 height: 80vh; 
 `;
@@ -23,14 +23,14 @@ height: 80vh;
 
 const TopographyScore = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 15}%) scale(1)`,
+    transform: `translate(0px,-${(scroll) * 3.5}%) scale(0.4)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-position: absolute;
-bottom: -170vh;
+bottom:-110vh;
+left:10vw;
 transform-origin: left center;
-left:2vw;
+position: absolute;
 /* border: 1px dashed red; */
 height: 80vh;
 `;
@@ -43,8 +43,7 @@ class TopographyImages extends Component {
     } = this.props;
     const heighttoBeReducedinVH = ((boxHeight * index) - 100);
     const scrollOffset = (screenHeight * heighttoBeReducedinVH) / 100;
-    const scrollOffsetInPercent = (scrollOffset * 100 / scrollHeight);
-    console.log('scrollPercent ', scrollPercent);
+    const scrollOffsetInPercent = (scrollOffset * 100 / scrollHeight) + index - 1;
     scrollPercent -= scrollOffsetInPercent;
     return (
       <React.Fragment>

@@ -6,21 +6,21 @@ import iconsInspectImg from '../../../../Assets/Images/Roadicons/IconsInspect.pn
 
 const IconsMap = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 15}%) scale(0.7)`,
+    transform: `translate(0px,-${(scroll) * 15}%) scale(0.6)`,
   }),
 })`
 transition: transform 0.2s ease-out;
 position: absolute;
 bottom: -170vh;
 transform-origin: left center;
-left:2vw;
+left:0vw;
 /* border: 1px dashed red; */
 height: 80vh; 
 `;
 
 const IconsInspect = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 3.5}%) scale(0.5)`,
+    transform: `translate(0px,-${(scroll) * 3.5}%) scale(0.4)`,
   }),
 })`
 transition: transform 0.2s ease-out;
@@ -41,11 +41,7 @@ class RoadIconsImages extends Component {
     const heighttoBeReducedinVH = ((boxHeight * index) - 100);
     const scrollOffset = (screenHeight * heighttoBeReducedinVH) / 100;
     const scrollOffsetInPercent = (scrollOffset * 100 / scrollHeight) + index - 1;
-    // console.log('WMF scrollOffsetPercent ', scrollOffsetInPercent);
     scrollPercent -= scrollOffsetInPercent;
-    if (scrollPercent > 0 && scrollPercent < 0.1) {
-      console.log('WMF');
-    }
     return (
       <React.Fragment>
         <IconsInspect src={iconsInspectImg} scroll={scrollPercent} alt="iconsInspect" />
