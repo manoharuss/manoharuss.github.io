@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import teslaHeatImg from '../../../../Assets/Images/Tesla/Heat.png';
-import teslaBatteryImg from '../../../../Assets/Images/Tesla/Battery.png';
+import flameGraphImg from '../../../../Assets/Images/Profiling/Flamegraph.png';
+import runTimeImg from '../../../../Assets/Images/Profiling/Runtime.png';
 
 
-const Heat = styled.img.attrs({
+const FlameGraph = styled.img.attrs({
   style: ({ scroll }) => ({
     transform: `translate(0px,-${(scroll) * 15}%) scale(0.85)`,
   }),
@@ -18,7 +18,7 @@ left:-1vw;
 height: 80vh; 
 `;
 
-const Battery = styled.img.attrs({
+const RunTime = styled.img.attrs({
   style: ({ scroll }) => ({
     transform: `translate(0px,-${(scroll) * 5}%) scale(0.55)`,
   }),
@@ -31,7 +31,7 @@ position: absolute;
 height: 80vh;
 `;
 
-class TeslaImages extends Component {
+class ProfilingImages extends Component {
   render() {
     let { scrollPercent } = this.props;
     const {
@@ -43,14 +43,14 @@ class TeslaImages extends Component {
     scrollPercent -= scrollOffsetInPercent;
     return (
       <React.Fragment>
-        <Battery src={teslaBatteryImg} scroll={scrollPercent} alt="teslaBattery" />
-        <Heat src={teslaHeatImg} scroll={scrollPercent} alt="teslaHeat" />
+        <RunTime src={runTimeImg} scroll={scrollPercent} alt="runTime" />
+        <FlameGraph src={flameGraphImg} scroll={scrollPercent} alt="flameGraph" />
       </React.Fragment>
     );
   }
 }
 
-TeslaImages.propTypes = {
+ProfilingImages.propTypes = {
   boxHeight: PropTypes.number.isRequired,
   index: PropTypes.number.isRequired,
   screenHeight: PropTypes.number.isRequired,
@@ -58,4 +58,4 @@ TeslaImages.propTypes = {
   scrollPercent: PropTypes.number.isRequired,
 };
 
-export default TeslaImages;
+export default ProfilingImages;

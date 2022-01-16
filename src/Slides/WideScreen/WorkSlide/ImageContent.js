@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import TopographyImages from './ParallaxImages/TopographyImages';
 import WhatsMyFoodImages from './ParallaxImages/WhatsMyFoodImages';
 import ComingOrNotImages from './ParallaxImages/ComingOrNotImages';
-import TeslaImages from './ParallaxImages/TeslaImages';
+import ProfilingImages from './ParallaxImages/ProfilingImages';
 import KosenImages from './ParallaxImages/KosenImages';
 import VizMapImages from './ParallaxImages/VizMapImages';
 
@@ -90,7 +90,7 @@ class ImageContent extends Component {
           />
         </ImageBox>
         <ImageBox height={boxHeight}>
-          <TeslaImages
+          <ProfilingImages
             boxHeight={boxHeight}
             index={4}
             scrollPercent={scrollPercent}
