@@ -20,7 +20,7 @@ height: 80vh;
 
 const VoistrapPhoneScore = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 5}%) scale(0.7)`,
+    transform: `translate(0px,-${(scroll) * 5}%) scale(0.75)`,
   }),
 })`
 transition: transform 0.2s ease-out;

@@ -14,7 +14,7 @@ const EnglishTab = styled.img.attrs({
 transition: transform 0.2s ease-out;
 position: absolute;
 bottom: -90vh;
-left:0vw;
+left:1vw;
 /* border: 1px dashed red; */
 height: 80vh; 
 `;

@@ -14,14 +14,14 @@ const BigBubble = styled.img.attrs({
 transition: transform 0.2s ease-out;
 position: absolute;
 bottom: -90vh;
-left:0vw;
+left:-4vw;
 /* border: 1px dashed red; */
 height: 80vh; 
 `;
 
 const Bubbles = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 5}%) scale(0.65)`,
+    transform: `translate(0px,-${(scroll) * 5}%) scale(0.7)`,
   }),
 })`
 transition: transform 0.2s ease-out;
