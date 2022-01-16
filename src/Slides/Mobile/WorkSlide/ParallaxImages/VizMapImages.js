@@ -6,7 +6,7 @@ import vizmap from '../../../../Assets/Images/Visualization/VizMap.png';
 
 const VizMap = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 15}%)`,
+    transform: `translate(0px,-${(scroll) * 15}%) scale(0.45)`,
   }),
 })`
 transition: transform 0.2s ease-out;
@@ -19,7 +19,7 @@ height: 80vh;
 
 const VizInspect = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 3.5}%) scale(0.8)`,
+    transform: `translate(0px,-${(scroll) * 4}%) scale(0.45)`,
   }),
 })`
 transition: transform 0.2s ease-out;
