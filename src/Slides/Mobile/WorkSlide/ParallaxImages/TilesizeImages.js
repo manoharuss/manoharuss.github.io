@@ -26,7 +26,7 @@ const LegacyTile = styled.img.attrs({
 transition: transform 0.2s ease-out;
 bottom:-110vh;
 transform-origin: left;
-left: 12vw;
+left: 13vw;
 position: absolute;
 /* border: 1px dashed red; */
 height: 80vh;

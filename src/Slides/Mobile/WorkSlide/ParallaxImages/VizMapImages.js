@@ -13,20 +13,20 @@ transition: transform 0.2s ease-out;
 position: absolute;
 bottom: -170vh;
 transform-origin: left;
-left: 2vw;
+left: 4vw;
 /* border: 1px dashed red; */
 height: 80vh; 
 `;
 
 const VizInspect = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 4.5}%) scale(0.425)`,
+    transform: `translate(0px,-${(scroll) * 5}%) scale(0.45)`,
   }),
 })`
 transition: transform 0.2s ease-out;
 bottom:-110vh;
 transform-origin: left;
-left: 12vw;
+left: 13vw;
 position: absolute;
 /* border: 1px dashed red; */
 height: 80vh;
