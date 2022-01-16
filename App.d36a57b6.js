@@ -34734,14 +34734,14 @@ var ClusteringImages = /*#__PURE__*/function (_Component) {
       var scrollOffset = screenHeight * heighttoBeReducedinVH / 100;
       var scrollOffsetInPercent = scrollOffset * 100 / scrollHeight + index - 1;
       scrollPercent -= scrollOffsetInPercent;
-      return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(ClusterMap, {
-        src: _ClusterMap.default,
-        scroll: scrollPercent,
-        alt: "clusterGrouping"
-      }), /*#__PURE__*/_react.default.createElement(ClusterGrouping, {
+      return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(ClusterGrouping, {
         src: _ClusterGrouping.default,
         scroll: scrollPercent,
         alt: "clusterMap"
+      }), /*#__PURE__*/_react.default.createElement(ClusterMap, {
+        src: _ClusterMap.default,
+        scroll: scrollPercent,
+        alt: "clusterGrouping"
       }));
     }
   }]);
@@ -35094,14 +35094,14 @@ var VizMapImages = /*#__PURE__*/function (_Component) {
       var scrollOffset = screenHeight * heighttoBeReducedinVH / 100;
       var scrollOffsetInPercent = scrollOffset * 100 / scrollHeight + index - 1;
       scrollPercent -= scrollOffsetInPercent;
-      return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(VizMap, {
-        src: _VizMap.default,
-        scroll: scrollPercent,
-        alt: "vizmap"
-      }), /*#__PURE__*/_react.default.createElement(VizInspect, {
+      return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(VizInspect, {
         src: _VizInspect.default,
         scroll: scrollPercent,
         alt: "vizinspect"
+      }), /*#__PURE__*/_react.default.createElement(VizMap, {
+        src: _VizMap.default,
+        scroll: scrollPercent,
+        alt: "vizmap"
       }));
     }
   }]);
@@ -37998,7 +37998,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58939" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59117" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
