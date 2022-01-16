@@ -15,7 +15,7 @@ transition: transform 0.2s ease-out;
 position: absolute;
 bottom: -170vh;
 transform-origin: left;
-left:3vw;
+left:2vw;
 /* border: 1px dashed red; */
 height: 80vh; 
 `;
@@ -23,7 +23,7 @@ height: 80vh;
 
 const TopographyScore = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 4}%) scale(0.5)`,
+    transform: `translate(0px,-${(scroll) * 3.75}%) scale(0.5)`,
   }),
 })`
 transition: transform 0.2s ease-out;

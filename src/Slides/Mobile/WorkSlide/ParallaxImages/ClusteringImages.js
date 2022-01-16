@@ -14,7 +14,7 @@ transition: transform 0.2s ease-out;
 position: absolute;
 bottom: -170vh;
 transform-origin: left;
-left: 2vw;
+left: 1vw;
 /* border: 1px dashed red; */
 height: 80vh; 
 `;
@@ -27,7 +27,7 @@ const ClusterGrouping = styled.img.attrs({
 transition: transform 0.2s ease-out;
 bottom:-110vh;
 transform-origin: left;
-left: 13vw;
+left: 14vw;
 position: absolute;
 /* border: 1px dashed red; */
 height: 80vh;
