@@ -95,33 +95,37 @@ class Skills extends Component {
         <SkillsTitle scrollPercent={scrollPercent}>SKILLS</SkillsTitle>
         <SkillsList>
           <div>
-            React
+            Python
             <br />
-            React Native
+            PySpark
             <br />
             Node.js
             <br />
             <br />
-            Rapid Prototyping
+            Data pipelines
             <br />
-            Functional Programming
+            Algorithmic expertise
             <br />
-            Interaction Development
+            High performance computing
+            <br />
+            Architecture design
             <br />
           </div>
           <div>
-            Responsive Design
+            Apache Airflow
             <br />
-            Testing & Debugging
+            AWS
             <br />
-            Application Architecture
+            Docker
             <br />
             <br />
-            Sketch
+            Positive Team culture
             <br />
-            Principle
+            Continuous learning
             <br />
-            Abstract
+            Expanding skillset
+            <br />
+            Transparent communication
             <br />
           </div>
         </SkillsList>
