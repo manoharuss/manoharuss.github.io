@@ -31,16 +31,16 @@ class Work extends Component {
       {
         number: '01',
         projectName: 'Topographic Prominence',
-        projectDesc: 'Mountains on the Mapbox global map are tiled based on elevation and distance from one another.',
+        projectDesc: 'Mountains on Mapbox global map are tiled based on elevation and distance from one another.',
         projectType: 'PySpark',
         roles: ['Map data engineer', 'Cartography'],
       },
       {
         number: '02',
-        projectName: 'WhatsMyFood',
-        projectDesc: 'iOS app to remember your fav food at each restaurant you eat.',
-        projectType: 'iOS APP',
-        roles: ['Front-end Developer', 'UI Designer'],
+        projectName: 'Road icons',
+        projectDesc: 'Roads on Mapbox global map are styled with interpolated icons along the road geometry.',
+        projectType: 'PySpark',
+        roles: ['Data engineer', 'Cartography'],
       },
       {
         number: '03',
