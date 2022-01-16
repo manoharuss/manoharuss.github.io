@@ -80,32 +80,37 @@ class Skills extends Component {
         <SkillsTitle>SKILLS</SkillsTitle>
         <SkillsList>
           <div>
-            React
+            Python
             <br />
-            React Native
+            PySpark
             <br />
             Node.js
             <br />
             <br />
-            Rapid Prototyping
+            Data pipelines
             <br />
-            Functional Programming
+            Algorithmic expertise
             <br />
-            Interaction Development
+            High performance computing
+            <br />
+            Architecture design
+            <br />
+          </div>
+          <div>
+            Apache Airflow
+            <br />
+            AWS
+            <br />
+            Docker
             <br />
             <br />
-            Responsive Design
+            Positive Team culture
             <br />
-            Testing & Debugging
+            Continuous learning
             <br />
-            Application Architecture
+            Expanding skillset
             <br />
-            <br />
-            Sketch
-            <br />
-            Principle
-            <br />
-            Abstract
+            Transparent communication
             <br />
           </div>
         </SkillsList>
