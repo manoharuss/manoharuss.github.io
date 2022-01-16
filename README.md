@@ -1,6 +1,6 @@
 # Manohar's Portfolio website
 
-Website link: [manoharuss.github.io](manoharuss.github.io)
+Portfolio Website link: [https://manoharuss.github.io/](https://manoharuss.github.io/)
 
 ## Attribution
 
