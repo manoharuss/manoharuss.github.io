@@ -6,27 +6,27 @@ import optimizedTile from '../../../../Assets/Images/Tilesize/OptimizedTile.png'
 
 const OptimizedTile = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 15}%) scale(0.55)`,
+    transform: `translate(0px,-${(scroll) * 15}%) scale(0.6)`,
   }),
 })`
 transition: transform 0.2s ease-out;
 position: absolute;
 bottom: -170vh;
 transform-origin: left;
-left: 8vw;
+left: 6vw;
 /* border: 1px dashed red; */
 height: 80vh; 
 `;
 
 const LegacyTile = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 3.75}%) scale(0.5)`,
+    transform: `translate(0px,-${(scroll) * 3.5}%) scale(0.5)`,
   }),
 })`
 transition: transform 0.2s ease-out;
 bottom:-110vh;
 transform-origin: left;
-left: 11vw;
+left: 12vw;
 position: absolute;
 /* border: 1px dashed red; */
 height: 80vh;
