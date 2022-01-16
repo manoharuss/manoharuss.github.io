@@ -6,7 +6,7 @@ import WhatsMyFoodImages from './ParallaxImages/WhatsMyFoodImages';
 import ComingOrNotImages from './ParallaxImages/ComingOrNotImages';
 import TeslaImages from './ParallaxImages/TeslaImages';
 import KosenImages from './ParallaxImages/KosenImages';
-import VoistrapWebImages from './ParallaxImages/VoistrapWebImages';
+import VizMapImages from './ParallaxImages/VizMapImages';
 
 const ImageContainer = styled.div`
 /* border: 0.1px dashed black; */
@@ -108,7 +108,7 @@ class ImageContent extends Component {
           />
         </ImageBox>
         <ImageBox height={boxHeight}>
-          <VoistrapWebImages
+          <VizMapImages
             boxHeight={boxHeight}
             index={6}
             scrollPercent={scrollPercent}

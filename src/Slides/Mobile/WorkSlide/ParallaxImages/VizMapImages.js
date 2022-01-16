@@ -1,37 +1,38 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import topographyHomeImg from '../../../../Assets/Images/Topography/Mountain.jpg';
-import topographyScoreImg from '../../../../Assets/Images/Topography/Score.png';
+import vizinspect from '../../../../Assets/Images/Visualization/VizInspect.png';
+import vizmap from '../../../../Assets/Images/Visualization/VizMap.png';
 
 
-const VoistrapPhoneHome = styled.img.attrs({
+const VizInspect = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 15}%)`,
+    transform: `translate(0px,-${(scroll) * 25}%) scale(0.9)`,
   }),
 })`
-transition: transform 0.2s ease-out;
 position: absolute;
-bottom: -90vh;
-left:0vw;
+bottom:-210vh;
+right: 2vw;
+transform-origin: right center;
 /* border: 1px dashed red; */
-height: 80vh; 
+width: 80vw;
 `;
 
-const VoistrapPhoneScore = styled.img.attrs({
+const VizMap = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 5}%) scale(0.75)`,
+    transform: `translate(0px,-${(scroll) * 13}%) scale(0.8)`,
   }),
 })`
-transition: transform 0.2s ease-out;
-bottom:-75vh;
+bottom:-160vh;
 left:2vw;
+transform-origin: left center;
 position: absolute;
 /* border: 1px dashed red; */
-height: 80vh;
+width: 80vw;
 `;
 
-class TopographyImages extends Component {
+
+class VizMapImages extends Component {
   render() {
     let { scrollPercent } = this.props;
     const {
@@ -43,14 +44,14 @@ class TopographyImages extends Component {
     scrollPercent -= scrollOffsetInPercent;
     return (
       <React.Fragment>
-        <VoistrapPhoneScore src={topographyScoreImg} scroll={scrollPercent} alt="topographyScore" />
-        <VoistrapPhoneHome src={topographyHomeImg} scroll={scrollPercent} alt="topographyHome" />
+        <VizMap src={vizmap} scroll={scrollPercent} alt="vizmap" />
+        <VizInspect src={vizinspect} scroll={scrollPercent} alt="vizinspect" />
       </React.Fragment>
     );
   }
 }
 
-TopographyImages.propTypes = {
+VizMapImages.propTypes = {
   boxHeight: PropTypes.number.isRequired,
   index: PropTypes.number.isRequired,
   screenHeight: PropTypes.number.isRequired,
@@ -58,4 +59,4 @@ TopographyImages.propTypes = {
   scrollPercent: PropTypes.number.isRequired,
 };
 
-export default TopographyImages;
+export default VizMapImages;

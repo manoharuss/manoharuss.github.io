@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import bubbles from '../../../../Assets/Images/Showcase/Bubble.png';
-import bigBubble from '../../../../Assets/Images/Showcase/BigBubble.png';
+import vizinspect from '../../../../Assets/Images/Visualization/VizInspect.png';
+import vizmap from '../../../../Assets/Images/Visualization/VizMap.png';
 
 
 
-const BigBubble = styled.img.attrs({
+const VizMap = styled.img.attrs({
   style: ({ scroll }) => ({
     transform: `translate(0px,-${(scroll) * 15}%) scale(0.7)`,
   }),
@@ -19,7 +19,7 @@ left:-4vw;
 height: 80vh; 
 `;
 
-const Bubbles = styled.img.attrs({
+const VizInspect = styled.img.attrs({
   style: ({ scroll }) => ({
     transform: `translate(0px,-${(scroll) * 5}%) scale(0.7)`,
   }),
@@ -32,7 +32,7 @@ position: absolute;
 height: 80vh;
 `;
 
-class VoistrapWebImages extends Component {
+class VizMapImages extends Component {
   render() {
     let { scrollPercent } = this.props;
     const {
@@ -44,14 +44,14 @@ class VoistrapWebImages extends Component {
     scrollPercent -= scrollOffsetInPercent;
     return (
       <React.Fragment>
-        <BigBubble src={bigBubble} scroll={scrollPercent} alt="bigBubble" />
-        <Bubbles src={bubbles} scroll={scrollPercent} alt="bubbles" />
+        <VizMap src={vizmap} scroll={scrollPercent} alt="vizmap" />
+        <VizInspect src={vizinspect} scroll={scrollPercent} alt="vizinspect" />
       </React.Fragment>
     );
   }
 }
 
-VoistrapWebImages.propTypes = {
+VizMapImages.propTypes = {
   boxHeight: PropTypes.number.isRequired,
   index: PropTypes.number.isRequired,
   screenHeight: PropTypes.number.isRequired,
@@ -59,4 +59,4 @@ VoistrapWebImages.propTypes = {
   scrollPercent: PropTypes.number.isRequired,
 };
 
-export default VoistrapWebImages;
+export default VizMapImages;

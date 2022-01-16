@@ -2,6 +2,10 @@
 
 Website link: [manoharuss.github.io](manoharuss.github.io)
 
+## Attribution
+
+This portfolio using the amazing React template open sourced by Suresh Murali over at https://github.com/sureshmurali/sureshmurali.github.io.
+
 
 ## How to deploy?
 

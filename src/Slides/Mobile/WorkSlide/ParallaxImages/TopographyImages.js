@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import topographyHomeImg from '../../../../Assets/Images/Topography/Home.jpg';
+import topographyHomeImg from '../../../../Assets/Images/Topography/Mountain.jpg';
 import topographyScoreImg from '../../../../Assets/Images/Topography/Score.png';
 
 
