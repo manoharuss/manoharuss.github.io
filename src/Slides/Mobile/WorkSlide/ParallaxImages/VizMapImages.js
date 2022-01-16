@@ -4,8 +4,7 @@ import PropTypes from 'prop-types';
 import vizinspect from '../../../../Assets/Images/Visualization/VizInspect.png';
 import vizmap from '../../../../Assets/Images/Visualization/VizMap.png';
 
-
-const VizInspect = styled.img.attrs({
+const VizMap = styled.img.attrs({
   style: ({ scroll }) => ({
     transform: `translate(0px,-${(scroll) * 15}%) scale(0.6)`,
   }),
@@ -19,19 +18,21 @@ left:0vw;
 height: 80vh; 
 `;
 
-const VizMap = styled.img.attrs({
+const VizInspect = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 3.5}%) scale(0.4)`,
+    transform: `translate(0px,-${(scroll) * 3.5}%) scale(0.55)`,
   }),
 })`
 transition: transform 0.2s ease-out;
 bottom:-110vh;
-left:10vw;
+left:0vw;
 transform-origin: left center;
 position: absolute;
 /* border: 1px dashed red; */
 height: 80vh;
 `;
+
+
 
 
 class VizMapImages extends Component {
