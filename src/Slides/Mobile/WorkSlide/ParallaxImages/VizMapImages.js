@@ -29,7 +29,7 @@ transform-origin: left;
 left: 12vw;
 position: absolute;
 /* border: 1px dashed red; */
-height: 80vh;
+height: 50vh;
 `;
 
 
