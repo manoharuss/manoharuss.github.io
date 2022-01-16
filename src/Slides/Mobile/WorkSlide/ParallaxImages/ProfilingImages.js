@@ -7,14 +7,14 @@ import runTimeImg from '../../../../Assets/Images/Profiling/Runtime.png';
 
 const FlameGraph = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 15}%) scale(0.575)`,
+    transform: `translate(0px,-${(scroll) * 15}%) scale(0.5)`,
   }),
 })`
 transition: transform 0.2s ease-out;
 position: absolute;
 bottom: -170vh;
 transform-origin: right center;
-right:0vw;
+right:2vw;
 /* border: 1px dashed red; */
 height: 80vh; 
 `;
@@ -26,8 +26,8 @@ const RunTime = styled.img.attrs({
 })`
 transition: transform 0.2s ease-out;
 bottom:-110vh;
-right:2vw;
 transform-origin: right center;
+right:3vw;
 position: absolute;
 /* border: 1px dashed red; */
 height: 80vh;

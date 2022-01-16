@@ -13,7 +13,7 @@ transition: transform 0.2s ease-out;
 position: absolute;
 bottom: -170vh;
 transform-origin: right center;
-right:0vw;
+right:2vw;
 /* border: 1px dashed red; */
 height: 80vh; 
 `;
@@ -25,8 +25,8 @@ const VizInspect = styled.img.attrs({
 })`
 transition: transform 0.2s ease-out;
 bottom:-110vh;
-right:2vw;
 transform-origin: right center;
+right:3vw;
 position: absolute;
 /* border: 1px dashed red; */
 height: 80vh;
