@@ -6,14 +6,14 @@ import vizmap from '../../../../Assets/Images/Visualization/VizMap.png';
 
 const VizMap = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 15}%) scale(0.5)`,
+    transform: `translate(0px,-${(scroll) * 15}%) scale(0.45)`,
   }),
 })`
 transition: transform 0.2s ease-out;
 position: absolute;
 bottom: -170vh;
-transform-origin: left center;
-left:0vw;
+transform-origin: right center;
+right:0vw;
 /* border: 1px dashed red; */
 height: 80vh; 
 `;
@@ -25,7 +25,7 @@ const VizInspect = styled.img.attrs({
 })`
 transition: transform 0.2s ease-out;
 bottom:-110vh;
-right:4vw;
+right:2vw;
 transform-origin: right center;
 position: absolute;
 /* border: 1px dashed red; */
