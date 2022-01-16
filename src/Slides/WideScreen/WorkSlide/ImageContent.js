@@ -5,7 +5,7 @@ import TopographyImages from './ParallaxImages/TopographyImages';
 import WhatsMyFoodImages from './ParallaxImages/WhatsMyFoodImages';
 import ComingOrNotImages from './ParallaxImages/ComingOrNotImages';
 import ProfilingImages from './ParallaxImages/ProfilingImages';
-import KosenImages from './ParallaxImages/KosenImages';
+import TilesizeImages from './ParallaxImages/TilesizeImages';
 import VizMapImages from './ParallaxImages/VizMapImages';
 
 const ImageContainer = styled.div`
@@ -99,7 +99,7 @@ class ImageContent extends Component {
           />
         </ImageBox>
         <ImageBox height={boxHeight}>
-          <KosenImages
+          <TilesizeImages
             boxHeight={boxHeight}
             index={5}
             scrollPercent={scrollPercent}

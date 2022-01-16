@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import englishHome from '../../../../Assets/Images/Kosen/EnglishHome.png';
-import jpnHome from '../../../../Assets/Images/Kosen/JpnHome.png';
-import player from '../../../../Assets/Images/Kosen/Player.png';
+import legacyTile from '../../../../Assets/Images/Tilesize/LegacyTile.png';
+import optimizedTile from '../../../../Assets/Images/Tilesize/OptimizedTile.png';
 
-const JapaneseTab = styled.img.attrs({
+const OptimizedTile = styled.img.attrs({
   style: ({ scroll }) => ({
     transform: `translate(0px,-${(scroll) * 13}%) scale(0.8)`,
   }),
@@ -20,7 +19,7 @@ height: 70vh;
 
 `;
 
-const EnglishTab = styled.img.attrs({
+const LegacyTile = styled.img.attrs({
   style: ({ scroll }) => ({
     transform: `translate(0px,-${(scroll) * 9}%) scale(0.6)`,
   }),
@@ -35,22 +34,7 @@ filter: blur(0.6px);
 height: 70vh; 
 `;
 
-const PlayerTab = styled.img.attrs({
-  style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 3}%) scale(0.5)`,
-  }),
-})`
-transition: transform 0.2s ease-out;
-bottom:-135vh;
-left: 3vw;
-transform-origin: left center;
-position: absolute;
-/* border: 1px dashed red; */
-height: 70vh;
-filter: blur(1px);
-`;
-
-class KosenImages extends Component {
+class TilesizeImages extends Component {
   render() {
     let { scrollPercent } = this.props;
     const {
@@ -67,15 +51,14 @@ class KosenImages extends Component {
     }
     return (
       <React.Fragment>
-        <PlayerTab src={player} scroll={scrollPercent} alt="kosenPlayer" />
-        <EnglishTab src={englishHome} scroll={scrollPercent} alt="kosenEnglish" />
-        <JapaneseTab src={jpnHome} scroll={scrollPercent} alt="kosenJapanese" />
+        <LegacyTile src={legacyTile} scroll={scrollPercent} alt="legacyTile" />
+        <OptimizedTile src={optimizedTile} scroll={scrollPercent} alt="optimizedTile" />
       </React.Fragment>
     );
   }
 }
 
-KosenImages.propTypes = {
+TilesizeImages.propTypes = {
   boxHeight: PropTypes.number.isRequired,
   index: PropTypes.number.isRequired,
   screenHeight: PropTypes.number.isRequired,
@@ -83,4 +66,4 @@ KosenImages.propTypes = {
   scrollPercent: PropTypes.number.isRequired,
 };
 
-export default KosenImages;
+export default TilesizeImages;

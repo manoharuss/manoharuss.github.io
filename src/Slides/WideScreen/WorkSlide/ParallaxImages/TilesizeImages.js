@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import englishHome from '../../../../Assets/Images/Kosen/EnglishHome.png';
-import jpnHome from '../../../../Assets/Images/Kosen/JpnHome.png';
+import legacyTile from '../../../../Assets/Images/Tilesize/LegacyTile.png';
+import optimizedTile from '../../../../Assets/Images/Tilesize/OptimizedTile.png';
 
 
 
-const EnglishTab = styled.img.attrs({
+
+const OptimizedTile = styled.img.attrs({
   style: ({ scroll }) => ({
     transform: `translate(0px,-${(scroll) * 15}%) scale(0.9)`,
   }),
@@ -19,7 +20,7 @@ left:1vw;
 height: 80vh; 
 `;
 
-const JapaneseTab = styled.img.attrs({
+const LegacyTile = styled.img.attrs({
   style: ({ scroll }) => ({
     transform: `translate(0px,-${(scroll) * 5}%) scale(0.8)`,
   }),
@@ -32,7 +33,7 @@ position: absolute;
 height: 80vh;
 `;
 
-class KosenImages extends Component {
+class TilesizeImages extends Component {
   render() {
     let { scrollPercent } = this.props;
     const {
@@ -44,14 +45,14 @@ class KosenImages extends Component {
     scrollPercent -= scrollOffsetInPercent;
     return (
       <React.Fragment>
-        <EnglishTab src={englishHome} scroll={scrollPercent} alt="kosenEnglish" />
-        <JapaneseTab src={jpnHome} scroll={scrollPercent} alt="kosenJapanese" />
+        <LegacyTile src={legacyTile} scroll={scrollPercent} alt="legacyTile" />
+        <OptimizedTile src={optimizedTile} scroll={scrollPercent} alt="optimizedTile" />
       </React.Fragment>
     );
   }
 }
 
-KosenImages.propTypes = {
+TilesizeImages.propTypes = {
   boxHeight: PropTypes.number.isRequired,
   index: PropTypes.number.isRequired,
   screenHeight: PropTypes.number.isRequired,
@@ -59,4 +60,4 @@ KosenImages.propTypes = {
   scrollPercent: PropTypes.number.isRequired,
 };
 
-export default KosenImages;
+export default TilesizeImages;
