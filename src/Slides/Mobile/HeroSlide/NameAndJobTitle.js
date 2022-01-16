@@ -14,7 +14,7 @@ const Container = styled.section`
 `;
 
 const Name = styled.div`
-  font-family: 'Valencia';
+  font-family: 'AvenirBookOblique';
   text-align:center;
   padding-right: 10px;
   @media ${device.mobileS} {
@@ -59,8 +59,8 @@ class NameAndJobTitle extends Component {
   render() {
     return (
       <Container>
-        <Name>Suresh Murali</Name>
-        <Title>FRONT-END DEVELOPER & UI/UX DESIGNER</Title>
+        <Name>Manohar Erikipati</Name>
+        <Title>BACK-END DEVELOPER & DATA ENGINEER</Title>
       </Container>
     );
   }

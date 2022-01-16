@@ -87,9 +87,9 @@ class Contact extends Component {
       <Container>
         <ContactTitle>CONTACT</ContactTitle>
         <SocialMediaIcons>
-          <SocialLogo imgURL={githubImg} alternate="github" redirectURL="https://github.com/manoharuss" />
-          <SocialLogo imgURL={mailImg} alternate="mail" redirectURL="mailto:manoharuss@gmail.com" />
-          <SocialLogo imgURL={linkedInImg} alternate="linkedin" redirectURL="https://www.linkedin.com/in/manoharuss" />
+          <SocialLogo imgURL={githubImg} alternate="Github" redirectURL="https://github.com/manoharuss" />
+          <SocialLogo imgURL={mailImg} alternate="Mail" redirectURL="mailto:manoharuss@gmail.com" />
+          <SocialLogo imgURL={linkedInImg} alternate="Linkedin" redirectURL="https://www.linkedin.com/in/manoharuss" />
         </SocialMediaIcons>
       </Container>
     );

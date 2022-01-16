@@ -14,6 +14,11 @@ src: url('./Fonts/Avenir/Avenir-Book-01.ttf');
 }
 
 @font-face {
+font-family: 'AvenirBookOblique';
+src: url('./Fonts/Avenir/Avenir-BookOblique-02.ttf');
+}
+
+@font-face {
 font-family: 'AvenirMedium';
 src: url('./Fonts/Avenir/Avenir-Medium-09.ttf');
 }
