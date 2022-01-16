@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import vhCheck from 'vh-check';
-import VoistrapImages from './ParallaxImages/VoistrapImages';
+import TopographyImages from './ParallaxImages/TopographyImages';
 import WhatsMyFoodImages from './ParallaxImages/WhatsMyFoodImages';
 import ComingOrNotImages from './ParallaxImages/ComingOrNotImages';
 import TeslaImages from './ParallaxImages/TeslaImages';
@@ -69,7 +69,7 @@ class ImageContent extends Component {
     return (
       <ImageContainer>
         <ImageBox height={boxHeight}>
-          <VoistrapImages
+          <TopographyImages
             boxHeight={boxHeight}
             index={1}
             scrollPercent={scrollPercent}

@@ -43,8 +43,8 @@ class ComingOrNotImages extends Component {
     scrollPercent -= scrollOffsetInPercent;
     return (
       <React.Fragment>
-        <Iphone src={cmgOrNotIphoneImg} scroll={scrollPercent} alt="voistrapHome" />
-        <Tablet src={cmgOrNotTabletImg} scroll={scrollPercent} alt="voistrapScore" />
+        <Iphone src={cmgOrNotIphoneImg} scroll={scrollPercent} alt="topographyHome" />
+        <Tablet src={cmgOrNotTabletImg} scroll={scrollPercent} alt="topographyScore" />
 
       </React.Fragment>
     );

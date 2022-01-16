@@ -1,40 +1,37 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import voistrapHomeImg from '../../../../Assets/Images/Voistrap/Home.jpg';
-import voistrapScoreImg from '../../../../Assets/Images/Voistrap/Score.png';
+import topographyHomeImg from '../../../../Assets/Images/Topography/Home.jpg';
+import topographyScoreImg from '../../../../Assets/Images/Topography/Score.png';
 
 
 const VoistrapPhoneHome = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 15}%) scale(0.7)`,
+    transform: `translate(0px,-${(scroll) * 15}%)`,
   }),
 })`
 transition: transform 0.2s ease-out;
 position: absolute;
-bottom: -170vh;
-transform-origin: left center;
-left:2vw;
+bottom: -90vh;
+left:0vw;
 /* border: 1px dashed red; */
 height: 80vh; 
 `;
 
-
 const VoistrapPhoneScore = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 15}%) scale(1)`,
+    transform: `translate(0px,-${(scroll) * 5}%) scale(0.75)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-position: absolute;
-bottom: -170vh;
-transform-origin: left center;
+bottom:-75vh;
 left:2vw;
+position: absolute;
 /* border: 1px dashed red; */
 height: 80vh;
 `;
 
-class VoistrapImages extends Component {
+class TopographyImages extends Component {
   render() {
     let { scrollPercent } = this.props;
     const {
@@ -43,18 +40,17 @@ class VoistrapImages extends Component {
     const heighttoBeReducedinVH = ((boxHeight * index) - 100);
     const scrollOffset = (screenHeight * heighttoBeReducedinVH) / 100;
     const scrollOffsetInPercent = (scrollOffset * 100 / scrollHeight);
-    console.log('scrollPercent ', scrollPercent);
     scrollPercent -= scrollOffsetInPercent;
     return (
       <React.Fragment>
-        <VoistrapPhoneScore src={voistrapScoreImg} scroll={scrollPercent} alt="voistrapScore" />
-        <VoistrapPhoneHome src={voistrapHomeImg} scroll={scrollPercent} alt="voistrapHome" />
+        <VoistrapPhoneScore src={topographyScoreImg} scroll={scrollPercent} alt="topographyScore" />
+        <VoistrapPhoneHome src={topographyHomeImg} scroll={scrollPercent} alt="topographyHome" />
       </React.Fragment>
     );
   }
 }
 
-VoistrapImages.propTypes = {
+TopographyImages.propTypes = {
   boxHeight: PropTypes.number.isRequired,
   index: PropTypes.number.isRequired,
   screenHeight: PropTypes.number.isRequired,
@@ -62,4 +58,4 @@ VoistrapImages.propTypes = {
   scrollPercent: PropTypes.number.isRequired,
 };
 
-export default VoistrapImages;
+export default TopographyImages;
