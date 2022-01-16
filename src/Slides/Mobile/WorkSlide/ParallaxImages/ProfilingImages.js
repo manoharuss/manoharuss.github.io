@@ -21,13 +21,13 @@ height: 80vh;
 
 const RunTime = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 3.5}%) scale(0.425)`,
+    transform: `translate(0px,-${(scroll) * 3.5}%) scale(0.375)`,
   }),
 })`
 transition: transform 0.2s ease-out;
 bottom:-110vh;
 transform-origin: right center;
-right:3vw;
+right:0vw;
 position: absolute;
 /* border: 1px dashed red; */
 height: 80vh;
