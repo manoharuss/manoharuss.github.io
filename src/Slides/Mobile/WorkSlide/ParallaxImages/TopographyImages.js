@@ -14,7 +14,7 @@ const TopographyHome = styled.img.attrs({
 transition: transform 0.2s ease-out;
 position: absolute;
 bottom: -170vh;
-transform-origin: right;
+transform-origin: left;
 /* border: 1px dashed red; */
 height: 80vh; 
 `;
@@ -27,7 +27,7 @@ const TopographyScore = styled.img.attrs({
 })`
 transition: transform 0.2s ease-out;
 bottom:-110vh;
-transform-origin: right;
+transform-origin: left;
 position: absolute;
 /* border: 1px dashed red; */
 height: 80vh;
