@@ -15,7 +15,7 @@ transition: transform 0.2s ease-out;
 position: absolute;
 bottom: -170vh;
 transform-origin: left;
-left:6vw;
+left:4vw;
 /* border: 1px dashed red; */
 height: 80vh; 
 `;
