@@ -71,6 +71,13 @@ class Work extends Component {
         projectType: 'WEB APP',
         roles: ['Full Stack Developer'],
       },
+      {
+        number: '',
+        projectName: '',
+        projectDesc: '',
+        projectType: '',
+        roles: [''],
+      },
     ];
   }
 

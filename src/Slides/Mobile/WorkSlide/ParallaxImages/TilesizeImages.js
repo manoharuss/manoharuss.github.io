@@ -20,13 +20,13 @@ height: 80vh;
 
 const LegacyTile = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 4.25}%) scale(0.5)`,
+    transform: `translate(0px,-${(scroll) * 4.5}%) scale(0.5)`,
   }),
 })`
 transition: transform 0.2s ease-out;
 bottom:-110vh;
 transform-origin: left;
-left: 13vw;
+left: 14vw;
 position: absolute;
 /* border: 1px dashed red; */
 height: 80vh;
