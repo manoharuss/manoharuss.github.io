@@ -44,7 +44,7 @@ class AboutMe extends Component {
       <Container>
         <AboutMeDescription>
         A back-end developer who cares deeply about robust system architecture and uptime.
-        Passion for Geospatial applications. Aim to succeed at map making for social good.
+        Passion for Geospatial applications and data engineering.
         </AboutMeDescription>
       </Container>
     );
