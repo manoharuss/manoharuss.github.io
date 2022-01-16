@@ -20,7 +20,7 @@ height: 80vh;
 
 const VizInspect = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 5.4}%) scale(0.45)`,
+    transform: `translate(0px,-${(scroll) * 5.75}%) scale(0.45)`,
   }),
 })`
 transition: transform 0.2s ease-out;
