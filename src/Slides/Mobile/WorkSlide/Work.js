@@ -23,6 +23,13 @@ class Work extends Component {
     this.handleScroll = this.handleScroll.bind(this);
     this.workDetails = [
       {
+        number: '',
+        projectName: '',
+        projectDesc: '',
+        projectType: '',
+        roles: [''],
+      },
+      {
         number: '01',
         projectName: 'Topographic Prominence',
         projectDesc: 'Mountains on Mapbox map are tiled based on elevation and distance from one another.',
@@ -63,7 +70,7 @@ class Work extends Component {
         projectDesc: 'Map of OpenStreetMap changesets my team reviewed in a year and the incorrect edits we found.',
         projectType: 'WEB APP',
         roles: ['Full Stack Developer'],
-      }
+      },
     ];
   }
 
