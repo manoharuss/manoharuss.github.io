@@ -12,7 +12,7 @@ const VizMap = styled.img.attrs({
 transition: transform 0.2s ease-out;
 position: absolute;
 bottom: -170vh;
-transform-origin: center;
+transform-origin: right;
 /* border: 1px dashed red; */
 height: 80vh; 
 `;
@@ -24,7 +24,7 @@ const VizInspect = styled.img.attrs({
 })`
 transition: transform 0.2s ease-out;
 bottom:-110vh;
-transform-origin: center;
+transform-origin: right;
 position: absolute;
 /* border: 1px dashed red; */
 height: 80vh;
@@ -45,8 +45,8 @@ class VizMapImages extends Component {
     scrollPercent -= scrollOffsetInPercent;
     return (
       <React.Fragment>
-        <VizMap src={vizmap} scroll={scrollPercent} alt="vizmap" />
         <VizInspect src={vizinspect} scroll={scrollPercent} alt="vizinspect" />
+        <VizMap src={vizmap} scroll={scrollPercent} alt="vizmap" />
       </React.Fragment>
     );
   }
