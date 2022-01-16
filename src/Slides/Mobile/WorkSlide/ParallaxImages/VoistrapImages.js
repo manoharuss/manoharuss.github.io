@@ -31,7 +31,7 @@ bottom: -170vh;
 transform-origin: left center;
 left:2vw;
 /* border: 1px dashed red; */
-height: 80vh; 
+height: 80vh;
 `;
 
 class VoistrapImages extends Component {

@@ -44,10 +44,10 @@ class Work extends Component {
       },
       {
         number: '03',
-        projectName: 'ComingOrNot',
-        projectDesc: 'Event planner web app that strives to ease the work of an organizer, conduct events in a less chaotic way.',
-        projectType: 'WEB APP',
-        roles: ['Front-end Developer', 'UI Designer'],
+        projectName: 'Fast Dynamic clustering',
+        projectDesc: 'Dense point collections are clustered using geometric buffering and polygon merging for spatial clustering.',
+        projectType: 'PySpark',
+        roles: ['Data engineer', 'Conflation'],
       },
       {
         number: '04',
