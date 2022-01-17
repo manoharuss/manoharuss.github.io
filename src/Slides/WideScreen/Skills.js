@@ -118,7 +118,7 @@ class Skills extends Component {
             <br />
             Docker
             <br />
-            <br />
+            
             Positive Team culture
             <br />
             Continuous learning

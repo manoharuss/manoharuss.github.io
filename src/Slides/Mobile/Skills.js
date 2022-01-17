@@ -101,7 +101,7 @@ class Skills extends Component {
             <br />
             High performance computing
             <br />
-            Architecture design
+            Dashboards and Visualizations
             <br />
             <br />
             Positive Team culture
