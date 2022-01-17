@@ -35612,7 +35612,7 @@ var Skills = /*#__PURE__*/function (_Component) {
       var scrollPercent = this.state.scrollPercent;
       return /*#__PURE__*/_react.default.createElement(Container, null, /*#__PURE__*/_react.default.createElement(SkillsTitle, {
         scrollPercent: scrollPercent
-      }, "SKILLS"), /*#__PURE__*/_react.default.createElement(SkillsList, null, /*#__PURE__*/_react.default.createElement("div", null, "Python", /*#__PURE__*/_react.default.createElement("br", null), "PySpark", /*#__PURE__*/_react.default.createElement("br", null), "Node.js", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Data pipelines", /*#__PURE__*/_react.default.createElement("br", null), "Algorithmic expertise", /*#__PURE__*/_react.default.createElement("br", null), "High performance computing", /*#__PURE__*/_react.default.createElement("br", null), "Architecture design", /*#__PURE__*/_react.default.createElement("br", null)), /*#__PURE__*/_react.default.createElement("div", null, "Apache Airflow", /*#__PURE__*/_react.default.createElement("br", null), "AWS", /*#__PURE__*/_react.default.createElement("br", null), "Docker", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Positive Team culture", /*#__PURE__*/_react.default.createElement("br", null), "Continuous learning", /*#__PURE__*/_react.default.createElement("br", null), "Expanding skillset", /*#__PURE__*/_react.default.createElement("br", null), "Transparent communication", /*#__PURE__*/_react.default.createElement("br", null))));
+      }, "SKILLS"), /*#__PURE__*/_react.default.createElement(SkillsList, null, /*#__PURE__*/_react.default.createElement("div", null, "Python", /*#__PURE__*/_react.default.createElement("br", null), "PySpark", /*#__PURE__*/_react.default.createElement("br", null), "Node.js", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Data pipelines", /*#__PURE__*/_react.default.createElement("br", null), "Algorithmic expertise", /*#__PURE__*/_react.default.createElement("br", null), "High performance computing", /*#__PURE__*/_react.default.createElement("br", null), "Architecture design", /*#__PURE__*/_react.default.createElement("br", null)), /*#__PURE__*/_react.default.createElement("div", null, "Apache Airflow", /*#__PURE__*/_react.default.createElement("br", null), "AWS", /*#__PURE__*/_react.default.createElement("br", null), "Docker", /*#__PURE__*/_react.default.createElement("br", null), "Positive Team culture", /*#__PURE__*/_react.default.createElement("br", null), "Continuous learning", /*#__PURE__*/_react.default.createElement("br", null), "Expanding skillset", /*#__PURE__*/_react.default.createElement("br", null), "Transparent communication", /*#__PURE__*/_react.default.createElement("br", null))));
     }
   }]);
 
@@ -36517,19 +36517,19 @@ var TopographyHome = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 15, "%)")
+      transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.55)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -170vh;\ntransform-origin: center;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -170vh;\ntransform-origin: left;\nleft:2vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
 
 var TopographyScore = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 3.5, "%) scale(0.8)")
+      transform: "translate(0px,-".concat(scroll * 3.75, "%) scale(0.5)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\ntransform-origin: center;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\ntransform-origin: left;\nleft:10vw;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
 
 var TopographyImages = /*#__PURE__*/function (_Component) {
   _inherits(TopographyImages, _Component);
@@ -36633,19 +36633,19 @@ var IconsMap = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 15, "%)")
+      transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.55)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -170vh;\ntransform-origin: center;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -170vh;\ntransform-origin: left;\nleft:4vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
 
 var IconsInspect = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 3.5, "%) scale(0.8)")
+      transform: "translate(0px,-".concat(scroll * 3.75, "%) scale(0.5)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\ntransform-origin: center;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\ntransform-origin: left;\nleft:11vw;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
 
 var RoadIconsImages = /*#__PURE__*/function (_Component) {
   _inherits(RoadIconsImages, _Component);
@@ -36749,19 +36749,19 @@ var ClusterMap = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 15, "%)")
+      transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.55)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -170vh;\ntransform-origin: center;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -170vh;\ntransform-origin: left;\nleft: 1vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
 
 var ClusterGrouping = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 3.5, "%)scale(0.8)")
+      transform: "translate(0px,-".concat(scroll * 3.5, "%) scale(0.5)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\ntransform-origin: center;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\ntransform-origin: left;\nleft: 14vw;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
 
 var ClusteringImages = /*#__PURE__*/function (_Component) {
   _inherits(ClusteringImages, _Component);
@@ -36865,19 +36865,19 @@ var FlameGraph = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 15, "%)")
+      transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.5)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -170vh;\ntransform-origin: center;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -170vh;\ntransform-origin: left;\nleft: 3vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
 
 var RunTime = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 3.5, "%) scale(0.8)")
+      transform: "translate(0px,-".concat(scroll * 4, "%) scale(0.35)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\ntransform-origin: center;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\ntransform-origin: left;\nleft: 8vw;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
 
 var ProfilingImages = /*#__PURE__*/function (_Component) {
   _inherits(ProfilingImages, _Component);
@@ -36981,19 +36981,19 @@ var OptimizedTile = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 15, "%)")
+      transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.6)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -170vh;\ntransform-origin: center;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -170vh;\ntransform-origin: left;\nleft: 6vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
 
 var LegacyTile = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 3.5, "%) scale(0.8)")
+      transform: "translate(0px,-".concat(scroll * 4.5, "%) scale(0.5)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\ntransform-origin: center;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\ntransform-origin: left;\nleft: 14vw;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
 
 var TilesizeImages = /*#__PURE__*/function (_Component) {
   _inherits(TilesizeImages, _Component);
@@ -37104,19 +37104,19 @@ var VizMap = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 15, "%)")
+      transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.45)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -170vh;\ntransform-origin: center;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -170vh;\ntransform-origin: left;\nleft: 3vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
 
 var VizInspect = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 3.5, "%) scale(0.8)")
+      transform: "translate(0px,-".concat(scroll * 5.75, "%) scale(0.45)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\ntransform-origin: center;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\ntransform-origin: left;\nleft: 13vw;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
 
 var VizMapImages = /*#__PURE__*/function (_Component) {
   _inherits(VizMapImages, _Component);
@@ -37142,14 +37142,14 @@ var VizMapImages = /*#__PURE__*/function (_Component) {
       var scrollOffset = screenHeight * heighttoBeReducedinVH / 100;
       var scrollOffsetInPercent = scrollOffset * 100 / scrollHeight;
       scrollPercent -= scrollOffsetInPercent;
-      return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(VizMap, {
-        src: _VizMap.default,
-        scroll: scrollPercent,
-        alt: "vizmap"
-      }), /*#__PURE__*/_react.default.createElement(VizInspect, {
+      return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(VizInspect, {
         src: _VizInspect.default,
         scroll: scrollPercent,
         alt: "vizinspect"
+      }), /*#__PURE__*/_react.default.createElement(VizMap, {
+        src: _VizMap.default,
+        scroll: scrollPercent,
+        alt: "vizmap"
       }));
     }
   }]);
@@ -37613,7 +37613,7 @@ var Skills = /*#__PURE__*/function (_Component) {
   _createClass(Skills, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/_react.default.createElement(Container, null, /*#__PURE__*/_react.default.createElement(SkillsTitle, null, "SKILLS"), /*#__PURE__*/_react.default.createElement(SkillsList, null, /*#__PURE__*/_react.default.createElement("div", null, "Python", /*#__PURE__*/_react.default.createElement("br", null), "PySpark", /*#__PURE__*/_react.default.createElement("br", null), "Node.js", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Data pipelines", /*#__PURE__*/_react.default.createElement("br", null), "Algorithmic expertise", /*#__PURE__*/_react.default.createElement("br", null), "High performance computing", /*#__PURE__*/_react.default.createElement("br", null), "Architecture design", /*#__PURE__*/_react.default.createElement("br", null)), /*#__PURE__*/_react.default.createElement("div", null, "Apache Airflow", /*#__PURE__*/_react.default.createElement("br", null), "AWS", /*#__PURE__*/_react.default.createElement("br", null), "Docker", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Positive Team culture", /*#__PURE__*/_react.default.createElement("br", null), "Continuous learning", /*#__PURE__*/_react.default.createElement("br", null), "Expanding skillset", /*#__PURE__*/_react.default.createElement("br", null), "Transparent communication", /*#__PURE__*/_react.default.createElement("br", null))));
+      return /*#__PURE__*/_react.default.createElement(Container, null, /*#__PURE__*/_react.default.createElement(SkillsTitle, null, "SKILLS"), /*#__PURE__*/_react.default.createElement(SkillsList, null, /*#__PURE__*/_react.default.createElement("div", null, "Python", /*#__PURE__*/_react.default.createElement("br", null), "PySpark", /*#__PURE__*/_react.default.createElement("br", null), "Node.js", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Apache Airflow", /*#__PURE__*/_react.default.createElement("br", null), "AWS", /*#__PURE__*/_react.default.createElement("br", null), "Docker", /*#__PURE__*/_react.default.createElement("br", null)), /*#__PURE__*/_react.default.createElement("div", null, "Data pipelines", /*#__PURE__*/_react.default.createElement("br", null), "Algorithmic expertise", /*#__PURE__*/_react.default.createElement("br", null), "High performance computing", /*#__PURE__*/_react.default.createElement("br", null), "Dashboards and Visualizations", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Positive Team culture", /*#__PURE__*/_react.default.createElement("br", null), "Continuous learning", /*#__PURE__*/_react.default.createElement("br", null), "Expanding skillset", /*#__PURE__*/_react.default.createElement("br", null), "Transparent communication", /*#__PURE__*/_react.default.createElement("br", null))));
     }
   }]);
 
@@ -37998,7 +37998,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59117" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51640" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
