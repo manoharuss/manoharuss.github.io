@@ -93,6 +93,7 @@ class Skills extends Component {
             <br />
             Docker
             <br />
+            <br />
           </div>
           <div>
             Data pipelines
