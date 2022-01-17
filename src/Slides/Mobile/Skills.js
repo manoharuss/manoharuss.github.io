@@ -87,6 +87,14 @@ class Skills extends Component {
             Node.js
             <br />
             <br />
+            Apache Airflow
+            <br />
+            AWS
+            <br />
+            Docker
+            <br />
+          </div>
+          <div>
             Data pipelines
             <br />
             Algorithmic expertise
@@ -94,14 +102,6 @@ class Skills extends Component {
             High performance computing
             <br />
             Architecture design
-            <br />
-          </div>
-          <div>
-            Apache Airflow
-            <br />
-            AWS
-            <br />
-            Docker
             <br />
             <br />
             Positive Team culture
