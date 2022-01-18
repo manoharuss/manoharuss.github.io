@@ -108,7 +108,7 @@ class Skills extends Component {
             <br />
             High performance computing
             <br />
-            Architecture design
+            Dashboards and Visualizations
             <br />
           </div>
           <div>
@@ -118,7 +118,7 @@ class Skills extends Component {
             <br />
             Docker
             <br />
-            
+            <br />
             Positive Team culture
             <br />
             Continuous learning
