@@ -77,7 +77,9 @@ class Skills extends Component {
   render() {
     return (
       <Container>
+        <div>
         <SkillsTitle>SKILLS</SkillsTitle>
+        </div>
         <SkillsList>
           <div>
             Python
