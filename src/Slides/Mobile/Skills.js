@@ -30,6 +30,7 @@ const Container = styled.section`
 const SkillsTitle = styled.div`
   font-family: 'AvenirHeavy';
   color: #000;
+  z-index: 0;
   @media ${device.mobileS} {
     font-size: 40px;
   }
@@ -79,6 +80,7 @@ class Skills extends Component {
       <Container>
         <div>
         <SkillsTitle>SKILLS</SkillsTitle>
+        <br />
         </div>
         <SkillsList>
           <div>
