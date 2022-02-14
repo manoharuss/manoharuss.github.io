@@ -40,18 +40,18 @@ const SkillsList = styled.div`
   align-items: center;
   font-family: 'AvenirRoman';
   text-align: left;
-  margin-left: 15%;
+  margin-left: 20%;
   margin-right: 10%;
   z-index: 1;
-  transform: translateY(30%);
+  transform: translateY(20%);
   @media ${device.laptop} {
-    font-size: 35px;
+    font-size: 30px;
   }
   @media ${device.laptopL} {
-    font-size: 40px;
+    font-size: 30px;
   }
   @media ${device.desktop} {
-    font-size: 70px;
+    font-size: 35px;
   }
 `;
 
@@ -101,7 +101,37 @@ class Skills extends Component {
             <br />
             Node.js
             <br />
+            MATLAB
             <br />
+            <br />
+            Airflow
+            <br />
+            AWS
+            <br />
+            Docker
+            <br />
+            <br />
+          </div>
+          <div>
+            ERDAS
+            <br />
+            Leica LPS
+            <br />
+            Pix4D
+            <br />
+            GDAL
+            <br />
+            <br />
+            Fieldwork & Surveying
+            <br />
+            Trimble Total station
+            <br />
+            RTK + DGPS
+            <br />
+            LabView instruments
+            <br />
+          </div>
+          <div>
             Data pipelines
             <br />
             Algorithmic expertise
@@ -110,20 +140,12 @@ class Skills extends Component {
             <br />
             Dashboards and Visualizations
             <br />
-          </div>
-          <div>
-            Apache Airflow
-            <br />
-            AWS
-            <br />
-            Docker
-            <br />
             <br />
             Positive Team culture
             <br />
             Continuous learning
             <br />
-            Expanding skillset
+            Research & Analysis
             <br />
             Transparent communication
             <br />
