@@ -35056,7 +35056,7 @@ var VizMap = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.9)")
+      transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.85)")
     };
   }
 })(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -90vh;\ntransform-origin: right center;\nright:4vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
@@ -37998,7 +37998,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65260" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65356" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

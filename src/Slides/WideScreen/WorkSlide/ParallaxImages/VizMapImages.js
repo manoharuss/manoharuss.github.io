@@ -8,7 +8,7 @@ import vizmap from '../../../../Assets/Images/Visualization/VizMap.png';
 
 const VizMap = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 15}%) scale(0.9)`,
+    transform: `translate(0px,-${(scroll) * 15}%) scale(0.85)`,
   }),
 })`
 transition: transform 0.2s ease-out;
