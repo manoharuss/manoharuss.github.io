@@ -92,6 +92,16 @@ class Skills extends Component {
     const { scrollPercent } = this.state;
     return (
       <Container>
+        <div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+        </div>
         <SkillsTitle scrollPercent={scrollPercent}>SKILLS</SkillsTitle>
         <SkillsList>
           <div>
@@ -132,9 +142,9 @@ class Skills extends Component {
             <br />
           </div>
           <div>
-            Data pipelines
-            <br />
             Algorithmic expertise
+            <br />
+            Data pipelines
             <br />
             High performance computing
             <br />
@@ -145,7 +155,7 @@ class Skills extends Component {
             <br />
             Continuous learning
             <br />
-            Research & Analysis
+            Expanding skillset
             <br />
             Transparent communication
             <br />

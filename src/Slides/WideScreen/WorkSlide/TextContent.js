@@ -17,13 +17,13 @@ width: 50%;
 const ProjectName = styled.div`
   font-family: 'AvenirHeavy';
   @media ${device.laptop} {
-    font-size: 70px;
+    font-size: 60px;
   }
   @media ${device.laptopL} {
-    font-size: 80px;
+    font-size: 70px;
   }
   @media ${device.desktop} {
-    font-size: 120px;
+    font-size: 100px;
   }
   /* border: 1px dashed black; */
 `;

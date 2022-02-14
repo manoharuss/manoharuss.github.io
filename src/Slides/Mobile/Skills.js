@@ -79,6 +79,12 @@ class Skills extends Component {
     return (
       <Container>
         <div>
+          <br />
+          <br />
+          <br />
+          <br />
+        </div>
+        <div>
         <SkillsTitle>SKILLS</SkillsTitle>
         <br />
         </div>
@@ -134,7 +140,7 @@ class Skills extends Component {
             <br />
             Continuous learning
             <br />
-            Research & Analysis
+            Expanding skillset
             <br />
             Transparent Communication
             <br />
