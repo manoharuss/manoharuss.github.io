@@ -95,6 +95,26 @@ class Skills extends Component {
           <br />
           <br />
           <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
         </div>
         <SkillsList>
           <div>
@@ -133,11 +153,12 @@ class Skills extends Component {
             <br />
             LabView instruments
             <br />
+            <br />
           </div>
           <div>
-            Data pipelines
-            <br />
             Algorithmic expertise
+            <br />
+            Data pipelines
             <br />
             High performance computing
             <br />
@@ -151,6 +172,7 @@ class Skills extends Component {
             Expanding skillset
             <br />
             Transparent Communication
+            <br />
             <br />
           </div>
         </SkillsList>
