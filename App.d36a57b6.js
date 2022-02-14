@@ -34031,7 +34031,7 @@ var NameAndJobTitle = /*#__PURE__*/function (_Component) {
         fontFam: "AvenirBookOblique",
         timeDelay: 500
       }), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement(_TitleReveal.default, {
-        text: "BACK-END DEVELOPER & DATA ENGINEER",
+        text: "GEOSPATIAL DEVELOPER & DATA ENGINEER",
         fontFam: "AvenirRoman",
         timeDelay: 1300
       }));
@@ -34152,7 +34152,7 @@ var AboutMe = /*#__PURE__*/function (_Component) {
       var scrollPercent = this.state.scrollPercent;
       return /*#__PURE__*/_react.default.createElement(Container, null, /*#__PURE__*/_react.default.createElement(AboutMeTitle, {
         scrollPercent: scrollPercent
-      }, "ABOUT ME"), /*#__PURE__*/_react.default.createElement(AboutMeDescription, null, "A back-end developer who cares deeply about robust system architecture and uptime. Passion for Geospatial applications and data engineering."));
+      }, "ABOUT ME"), /*#__PURE__*/_react.default.createElement(AboutMeDescription, null, "An experienced engineer who cares deeply about algorithms and robust system architecture. Expertise in Geospatial applications and data engineering."));
     }
   }]);
 
@@ -35550,7 +35550,7 @@ var SkillsTitle = _styledComponents.default.div.attrs({
   }
 })(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n  transition: transform 0.5s ease-out;\n  font-family: 'AvenirHeavy';\n  position: absolute;\n  color: #EEE;\n  top:40%;\n  right:-50%;\n  @media ", " {\n    font-size: 180px;\n  }\n  @media ", " {\n    font-size: 200px;\n  }\n  @media ", " {\n    font-size: 350px;\n  }\n"])), _breakpoints.default.laptop, _breakpoints.default.laptopL, _breakpoints.default.desktop);
 
-var SkillsList = _styledComponents.default.div(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\n  /* border: 1px solid #EFEFEF; */\n  display: flex;\n  flex-flow: row nowrap;\n  justify-content: space-between;\n  align-items: center;\n  font-family: 'AvenirRoman';\n  text-align: left;\n  margin-left: 15%;\n  margin-right: 10%;\n  z-index: 1;\n  transform: translateY(30%);\n  @media ", " {\n    font-size: 35px;\n  }\n  @media ", " {\n    font-size: 40px;\n  }\n  @media ", " {\n    font-size: 70px;\n  }\n"])), _breakpoints.default.laptop, _breakpoints.default.laptopL, _breakpoints.default.desktop);
+var SkillsList = _styledComponents.default.div(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\n  /* border: 1px solid #EFEFEF; */\n  display: flex;\n  flex-flow: row nowrap;\n  justify-content: space-between;\n  align-items: center;\n  font-family: 'AvenirRoman';\n  text-align: left;\n  margin-left: 20%;\n  margin-right: 10%;\n  z-index: 1;\n  transform: translateY(20%);\n  @media ", " {\n    font-size: 30px;\n  }\n  @media ", " {\n    font-size: 30px;\n  }\n  @media ", " {\n    font-size: 35px;\n  }\n"])), _breakpoints.default.laptop, _breakpoints.default.laptopL, _breakpoints.default.desktop);
 
 var Skills = /*#__PURE__*/function (_Component) {
   _inherits(Skills, _Component);
@@ -35612,7 +35612,7 @@ var Skills = /*#__PURE__*/function (_Component) {
       var scrollPercent = this.state.scrollPercent;
       return /*#__PURE__*/_react.default.createElement(Container, null, /*#__PURE__*/_react.default.createElement(SkillsTitle, {
         scrollPercent: scrollPercent
-      }, "SKILLS"), /*#__PURE__*/_react.default.createElement(SkillsList, null, /*#__PURE__*/_react.default.createElement("div", null, "Python", /*#__PURE__*/_react.default.createElement("br", null), "PySpark", /*#__PURE__*/_react.default.createElement("br", null), "Node.js", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Data pipelines", /*#__PURE__*/_react.default.createElement("br", null), "Algorithmic expertise", /*#__PURE__*/_react.default.createElement("br", null), "High performance computing", /*#__PURE__*/_react.default.createElement("br", null), "Architecture design", /*#__PURE__*/_react.default.createElement("br", null)), /*#__PURE__*/_react.default.createElement("div", null, "Apache Airflow", /*#__PURE__*/_react.default.createElement("br", null), "AWS", /*#__PURE__*/_react.default.createElement("br", null), "Docker", /*#__PURE__*/_react.default.createElement("br", null), "Positive Team culture", /*#__PURE__*/_react.default.createElement("br", null), "Continuous learning", /*#__PURE__*/_react.default.createElement("br", null), "Expanding skillset", /*#__PURE__*/_react.default.createElement("br", null), "Transparent communication", /*#__PURE__*/_react.default.createElement("br", null))));
+      }, "SKILLS"), /*#__PURE__*/_react.default.createElement(SkillsList, null, /*#__PURE__*/_react.default.createElement("div", null, "Python", /*#__PURE__*/_react.default.createElement("br", null), "PySpark", /*#__PURE__*/_react.default.createElement("br", null), "Node.js", /*#__PURE__*/_react.default.createElement("br", null), "MATLAB", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Airflow", /*#__PURE__*/_react.default.createElement("br", null), "AWS", /*#__PURE__*/_react.default.createElement("br", null), "Docker", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null)), /*#__PURE__*/_react.default.createElement("div", null, "ERDAS", /*#__PURE__*/_react.default.createElement("br", null), "Leica LPS", /*#__PURE__*/_react.default.createElement("br", null), "Pix4D", /*#__PURE__*/_react.default.createElement("br", null), "GDAL", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Fieldwork & Surveying", /*#__PURE__*/_react.default.createElement("br", null), "Trimble Total station", /*#__PURE__*/_react.default.createElement("br", null), "RTK + DGPS", /*#__PURE__*/_react.default.createElement("br", null), "LabView instruments", /*#__PURE__*/_react.default.createElement("br", null)), /*#__PURE__*/_react.default.createElement("div", null, "Data pipelines", /*#__PURE__*/_react.default.createElement("br", null), "Algorithmic expertise", /*#__PURE__*/_react.default.createElement("br", null), "High performance computing", /*#__PURE__*/_react.default.createElement("br", null), "Dashboards and Visualizations", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Positive Team culture", /*#__PURE__*/_react.default.createElement("br", null), "Continuous learning", /*#__PURE__*/_react.default.createElement("br", null), "Research & Analysis", /*#__PURE__*/_react.default.createElement("br", null), "Transparent communication", /*#__PURE__*/_react.default.createElement("br", null))));
     }
   }]);
 
@@ -35943,7 +35943,7 @@ var NameAndJobTitle = /*#__PURE__*/function (_Component) {
   _createClass(NameAndJobTitle, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/_react.default.createElement(Container, null, /*#__PURE__*/_react.default.createElement(Name, null, "Manohar Erikipati"), /*#__PURE__*/_react.default.createElement(Title, null, "BACK-END DEVELOPER & DATA ENGINEER"));
+      return /*#__PURE__*/_react.default.createElement(Container, null, /*#__PURE__*/_react.default.createElement(Name, null, "Manohar Erikipati"), /*#__PURE__*/_react.default.createElement(Title, null, "GEOSPATIAL DEVELOPER & DATA ENGINEER"));
     }
   }]);
 
@@ -36016,7 +36016,7 @@ var AboutMe = /*#__PURE__*/function (_Component) {
   _createClass(AboutMe, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/_react.default.createElement(Container, null, /*#__PURE__*/_react.default.createElement(AboutMeDescription, null, "A back-end developer who cares deeply about robust system architecture and uptime. Passion for Geospatial applications and data engineering."));
+      return /*#__PURE__*/_react.default.createElement(Container, null, /*#__PURE__*/_react.default.createElement(AboutMeDescription, null, "An experienced engineer who cares deeply about algorithms and robust system architecture. Expertise in Geospatial applications and data engineering."));
     }
   }]);
 
@@ -37613,7 +37613,7 @@ var Skills = /*#__PURE__*/function (_Component) {
   _createClass(Skills, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/_react.default.createElement(Container, null, /*#__PURE__*/_react.default.createElement(SkillsTitle, null, "SKILLS"), /*#__PURE__*/_react.default.createElement(SkillsList, null, /*#__PURE__*/_react.default.createElement("div", null, "Python", /*#__PURE__*/_react.default.createElement("br", null), "PySpark", /*#__PURE__*/_react.default.createElement("br", null), "Node.js", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Apache Airflow", /*#__PURE__*/_react.default.createElement("br", null), "AWS", /*#__PURE__*/_react.default.createElement("br", null), "Docker", /*#__PURE__*/_react.default.createElement("br", null)), /*#__PURE__*/_react.default.createElement("div", null, "Data pipelines", /*#__PURE__*/_react.default.createElement("br", null), "Algorithmic expertise", /*#__PURE__*/_react.default.createElement("br", null), "High performance computing", /*#__PURE__*/_react.default.createElement("br", null), "Dashboards and Visualizations", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Positive Team culture", /*#__PURE__*/_react.default.createElement("br", null), "Continuous learning", /*#__PURE__*/_react.default.createElement("br", null), "Expanding skillset", /*#__PURE__*/_react.default.createElement("br", null), "Transparent communication", /*#__PURE__*/_react.default.createElement("br", null))));
+      return /*#__PURE__*/_react.default.createElement(Container, null, /*#__PURE__*/_react.default.createElement(SkillsTitle, null, "SKILLS"), /*#__PURE__*/_react.default.createElement(SkillsList, null, /*#__PURE__*/_react.default.createElement("div", null, "Python", /*#__PURE__*/_react.default.createElement("br", null), "PySpark", /*#__PURE__*/_react.default.createElement("br", null), "Node.js", /*#__PURE__*/_react.default.createElement("br", null), "MATLAB", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Airflow", /*#__PURE__*/_react.default.createElement("br", null), "AWS", /*#__PURE__*/_react.default.createElement("br", null), "Docker", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null)), /*#__PURE__*/_react.default.createElement("div", null, "ERDAS", /*#__PURE__*/_react.default.createElement("br", null), "Leica LPS", /*#__PURE__*/_react.default.createElement("br", null), "Pix4D", /*#__PURE__*/_react.default.createElement("br", null), "GDAL", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Fieldwork & Surveying", /*#__PURE__*/_react.default.createElement("br", null), "Trimble Total station", /*#__PURE__*/_react.default.createElement("br", null), "RTK + DGPS", /*#__PURE__*/_react.default.createElement("br", null), "LabView instruments", /*#__PURE__*/_react.default.createElement("br", null)), /*#__PURE__*/_react.default.createElement("div", null, "Data pipelines", /*#__PURE__*/_react.default.createElement("br", null), "Algorithmic expertise", /*#__PURE__*/_react.default.createElement("br", null), "High performance computing", /*#__PURE__*/_react.default.createElement("br", null), "Dashboards and Visualizations", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Positive Team culture", /*#__PURE__*/_react.default.createElement("br", null), "Continuous learning", /*#__PURE__*/_react.default.createElement("br", null), "Research & Analysis", /*#__PURE__*/_react.default.createElement("br", null), "Transparent Communication", /*#__PURE__*/_react.default.createElement("br", null))));
     }
   }]);
 
@@ -37998,7 +37998,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51640" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63800" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
