@@ -78,44 +78,7 @@ class Skills extends Component {
   render() {
     return (
       <Container>
-        <div>
         <SkillsTitle>SKILLS</SkillsTitle>
-        <br />
-        </div>
-        <div>
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-        </div>
         <SkillsList>
           <div>
             Python
@@ -124,10 +87,8 @@ class Skills extends Component {
             <br />
             Node.js
             <br />
-            MATLAB
             <br />
-            <br />
-            Airflow
+            Apache Airflow
             <br />
             AWS
             <br />
@@ -136,29 +97,9 @@ class Skills extends Component {
             <br />
           </div>
           <div>
-            ERDAS
-            <br />
-            Leica LPS
-            <br />
-            Pix4D
-            <br />
-            GDAL
-            <br />
-            <br />
-            Fieldwork & Surveying
-            <br />
-            Trimble Total station
-            <br />
-            RTK + DGPS
-            <br />
-            LabView instruments
-            <br />
-            <br />
-          </div>
-          <div>
-            Algorithmic expertise
-            <br />
             Data pipelines
+            <br />
+            Algorithmic expertise
             <br />
             High performance computing
             <br />
@@ -171,8 +112,7 @@ class Skills extends Component {
             <br />
             Expanding skillset
             <br />
-            Transparent Communication
-            <br />
+            Transparent communication
             <br />
           </div>
         </SkillsList>
@@ -180,5 +120,4 @@ class Skills extends Component {
     );
   }
 }
-
 export default Skills;

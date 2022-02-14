@@ -111,8 +111,6 @@ class Skills extends Component {
             <br />
             Node.js
             <br />
-            MATLAB
-            <br />
             <br />
             Airflow
             <br />
@@ -120,25 +118,6 @@ class Skills extends Component {
             <br />
             Docker
             <br />
-            <br />
-          </div>
-          <div>
-            ERDAS
-            <br />
-            Leica LPS
-            <br />
-            Pix4D
-            <br />
-            GDAL
-            <br />
-            <br />
-            Fieldwork & Surveying
-            <br />
-            Trimble Total station
-            <br />
-            RTK + DGPS
-            <br />
-            LabView instruments
             <br />
           </div>
           <div>
@@ -157,7 +136,8 @@ class Skills extends Component {
             <br />
             Expanding skillset
             <br />
-            Transparent communication
+            Transparent Communication
+            <br />
             <br />
           </div>
         </SkillsList>
