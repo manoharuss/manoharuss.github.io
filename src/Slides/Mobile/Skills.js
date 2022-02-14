@@ -79,14 +79,22 @@ class Skills extends Component {
     return (
       <Container>
         <div>
-          <br />
-          <br />
-          <br />
-          <br />
-        </div>
-        <div>
         <SkillsTitle>SKILLS</SkillsTitle>
         <br />
+        </div>
+        <div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
         </div>
         <SkillsList>
           <div>
