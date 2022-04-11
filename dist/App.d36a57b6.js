@@ -34153,7 +34153,7 @@ var AboutMe = /*#__PURE__*/function (_Component) {
       return /*#__PURE__*/_react.default.createElement(Container, null, /*#__PURE__*/_react.default.createElement(AboutMeTitle, {
         scrollPercent: scrollPercent
       }, "ABOUT ME"), /*#__PURE__*/_react.default.createElement(AboutMeDescription, null, "An experienced engineer who cares deeply about algorithms and robust system architecture. Expertise in Geospatial applications and data engineering.  ", /*#__PURE__*/_react.default.createElement("a", {
-        href: "http://manoharuss.github.io/cv/"
+        href: "https://manoharuss.github.io/cv/"
       }, "Click to view CV.")));
     }
   }]);
@@ -36018,8 +36018,8 @@ var AboutMe = /*#__PURE__*/function (_Component) {
   _createClass(AboutMe, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/_react.default.createElement(Container, null, /*#__PURE__*/_react.default.createElement(AboutMeDescription, null, "An experienced engineer who cares deeply about algorithms and robust system architecture. Expertise in Geospatial applications and data engineering.  ", /*#__PURE__*/_react.default.createElement("a", {
-        href: "http://manoharuss.github.io/cv/"
+      return /*#__PURE__*/_react.default.createElement(Container, null, /*#__PURE__*/_react.default.createElement(AboutMeDescription, null, "An experienced engineer who cares deeply about algorithms and robust system architecture. Expertise in Geospatial applications and data engineering.    ", /*#__PURE__*/_react.default.createElement("a", {
+        href: "https://manoharuss.github.io/cv/"
       }, "Click to view CV.")));
     }
   }]);
@@ -38002,7 +38002,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49445" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55531" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
