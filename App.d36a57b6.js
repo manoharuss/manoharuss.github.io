@@ -34152,7 +34152,9 @@ var AboutMe = /*#__PURE__*/function (_Component) {
       var scrollPercent = this.state.scrollPercent;
       return /*#__PURE__*/_react.default.createElement(Container, null, /*#__PURE__*/_react.default.createElement(AboutMeTitle, {
         scrollPercent: scrollPercent
-      }, "ABOUT ME"), /*#__PURE__*/_react.default.createElement(AboutMeDescription, null, "An experienced engineer who cares deeply about algorithms and robust system architecture. Expertise in Geospatial applications and data engineering."));
+      }, "ABOUT ME"), /*#__PURE__*/_react.default.createElement(AboutMeDescription, null, "An experienced engineer who cares deeply about algorithms and robust system architecture. Expertise in Geospatial applications and data engineering.  ", /*#__PURE__*/_react.default.createElement("a", {
+        href: "http://manoharuss.github.io/cv/"
+      }, "Click to view CV.")));
     }
   }]);
 
@@ -35612,7 +35614,7 @@ var Skills = /*#__PURE__*/function (_Component) {
       var scrollPercent = this.state.scrollPercent;
       return /*#__PURE__*/_react.default.createElement(Container, null, /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null)), /*#__PURE__*/_react.default.createElement(SkillsTitle, {
         scrollPercent: scrollPercent
-      }, "SKILLS"), /*#__PURE__*/_react.default.createElement(SkillsList, null, /*#__PURE__*/_react.default.createElement("div", null, "Python", /*#__PURE__*/_react.default.createElement("br", null), "PySpark", /*#__PURE__*/_react.default.createElement("br", null), "Node.js", /*#__PURE__*/_react.default.createElement("br", null), "MATLAB", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Airflow", /*#__PURE__*/_react.default.createElement("br", null), "AWS", /*#__PURE__*/_react.default.createElement("br", null), "Docker", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null)), /*#__PURE__*/_react.default.createElement("div", null, "Algorithmic expertise", /*#__PURE__*/_react.default.createElement("br", null), "Data pipelines", /*#__PURE__*/_react.default.createElement("br", null), "High performance computing", /*#__PURE__*/_react.default.createElement("br", null), "Dashboards and Visualizations", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Positive Team culture", /*#__PURE__*/_react.default.createElement("br", null), "Continuous learning", /*#__PURE__*/_react.default.createElement("br", null), "Expanding skillset", /*#__PURE__*/_react.default.createElement("br", null), "Transparent Communication", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null))));
+      }, "SKILLS"), /*#__PURE__*/_react.default.createElement(SkillsList, null, /*#__PURE__*/_react.default.createElement("div", null, "Python", /*#__PURE__*/_react.default.createElement("br", null), "PySpark", /*#__PURE__*/_react.default.createElement("br", null), "Node.js", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Airflow", /*#__PURE__*/_react.default.createElement("br", null), "AWS", /*#__PURE__*/_react.default.createElement("br", null), "Docker", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null)), /*#__PURE__*/_react.default.createElement("div", null, "Algorithmic expertise", /*#__PURE__*/_react.default.createElement("br", null), "Data pipelines", /*#__PURE__*/_react.default.createElement("br", null), "High performance computing", /*#__PURE__*/_react.default.createElement("br", null), "Dashboards and Visualizations", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Positive Team culture", /*#__PURE__*/_react.default.createElement("br", null), "Continuous learning", /*#__PURE__*/_react.default.createElement("br", null), "Expanding skillset", /*#__PURE__*/_react.default.createElement("br", null), "Transparent Communication", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null))));
     }
   }]);
 
@@ -36016,7 +36018,9 @@ var AboutMe = /*#__PURE__*/function (_Component) {
   _createClass(AboutMe, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/_react.default.createElement(Container, null, /*#__PURE__*/_react.default.createElement(AboutMeDescription, null, "An experienced engineer who cares deeply about algorithms and robust system architecture. Expertise in Geospatial applications and data engineering."));
+      return /*#__PURE__*/_react.default.createElement(Container, null, /*#__PURE__*/_react.default.createElement(AboutMeDescription, null, "An experienced engineer who cares deeply about algorithms and robust system architecture. Expertise in Geospatial applications and data engineering.  ", /*#__PURE__*/_react.default.createElement("a", {
+        href: "http://manoharuss.github.io/cv/"
+      }, "Click to view CV.")));
     }
   }]);
 
@@ -37998,7 +38002,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49493" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49445" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
