@@ -86,7 +86,7 @@ class AboutMe extends Component {
         <AboutMeTitle scrollPercent={scrollPercent}>ABOUT ME</AboutMeTitle>
         <AboutMeDescription>
         An experienced engineer who cares deeply about algorithms and robust system architecture.
-        Expertise in Geospatial applications and data engineering.  <a href="https://manoharuss.github.io/cv/">Click to view CV.</a>
+        Expertise in Geospatial applications and data engineering.  <a href="https://manoharuss.github.io/cv/" target="_blank">Click to view CV.</a>
         </AboutMeDescription>
       </Container>
     );
