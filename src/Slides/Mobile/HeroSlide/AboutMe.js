@@ -44,7 +44,7 @@ class AboutMe extends Component {
       <Container>
         <AboutMeDescription>
         An experienced engineer who cares deeply about algorithms and robust system architecture.
-        Expertise in Geospatial applications and data engineering.
+        Expertise in Geospatial applications and data engineering.  <a href="http://manoharuss.github.io/cv/">Click to view CV.</a>
         </AboutMeDescription>
       </Container>
     );
